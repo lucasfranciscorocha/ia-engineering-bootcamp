@@ -20,7 +20,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
 ```
 
 - **Parâmetro Crítico:** O `npx` baixa o pacote diretamente para o cache do usuário e o descarta após o encerramento do processo (`Ctrl + C`), mantendo os binários do sistema limpos e sem poluição global.
-- **Origem do Conceito:** [[notas_Extensão_NPM_NPX_Python.md#Dia 23]]
+- **Origem do Conceito:** [[X_notas_Extensão_NPM_NPX_Python#Dia 23]]
 
 
 **Ignorar checagem de token de autenticação do Inspector (Modo Dev):**
@@ -31,7 +31,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     
 - **Parâmetro Crítico:** Remove a barreira do token randômico (`MCP_PROXY_AUTH_TOKEN`) para acelerar testes locais. **Aviso de Segurança:** Não utilizar em ambientes de rede pública ou corporativa exposta.
     
-- **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 22]]
+- **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 22]]
 
 ### 🔍 Auditoria, Debug e Gerenciamento de Cache no Linux
 
@@ -43,7 +43,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     
     - **Parâmetro Crítico:** Lista os hashes SHA-256 das sandboxes temporárias criadas pelo Node para rodar os servidores. Essencial para debugar se o download foi concluído ou se há corrupção local.
         
-    - **Origem do Conceito:** [[notas_Extensão_NPM_NPX_Python.md#Dia 23]]
+    - **Origem do Conceito:** [[X_notas_Extensão_NPM_NPX_Python#Dia 23]]
 
 ### 🚨 Resolução de Erros Comuns de Infraestrutura (Troubleshooting Node)
 
@@ -53,7 +53,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
         
     - **Solução:** Substituir caminhos relativos por caminhos absolutos baseados no sistema operacional (Ex: `/home/lucasrocha/...`).
         
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 22]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 22]]
         
 - **Falha `EPIPE` (Broken Pipe) no transporte Stdio:**
     
@@ -61,7 +61,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
         
     - **Solução:** Validar se há processos órfãos travando a execução ou erros de sintaxe internos usando comandos de `pkill`.
         
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 22]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 22]]
 
 ## 🖥️ Infraestrutura e Shell Linux (Ubuntu)
 
@@ -76,7 +76,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     ```
     
     - **Parâmetro Crítico:** O sinal `-f` faz o `pkill` buscar o padrão "mcp" na linha de comando inteira do processo, e não apenas no nome do binário. Crucial para encerrar servidores Python e instâncias do Node presas na memória RAM após o fechamento abrupto do terminal.
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 22]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 22]]
         
 ### 📂 Auditoria de Armazenamento e Permissões de Disco
 
@@ -96,7 +96,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
             
         - `2>/dev/null`: Redireciona mensagens de erro de permissão ou pastas inexistentes para o dispositivo nulo do Linux, mantendo o output limpo.
             
-    - **Origem do Conceito:** [[notas_Extensão_NPM_NPX_Python.md#Dia 23]]
+    - **Origem do Conceito:** [[X_notas_Extensão_NPM_NPX_Python#Dia 23]]
         
 
 ### 🛠️ Resolução de Erros de Escopo do Kernel (Troubleshooting POSIX)
@@ -109,7 +109,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
         
     - **Ação Corretiva:** Abandonar o uso de caminhos relativos (`./`) em arquivos de configuração e injetar caminhos absolutos (`/home/lucasrocha/...`) mapeados em tempo de execução.
         
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 22]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 22]]
         
 
 ## 🐍 Ecossistema Python & Ambientes Virtuais
@@ -126,7 +126,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     
     - **Parâmetro Crítico:** Redireciona os caminhos de execução do sistema para utilizar o interpretador Python e os pacotes instalados estritamente dentro da pasta local `.venv`, protegendo o escopo global do sistema operacional contra poluição de dependências.
         
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 19]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 19]]
         
 - **Desativar o ambiente virtual e retornar ao interpretador padrão do sistema:**
     
@@ -136,7 +136,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     deactivate
     ```
     
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 19]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 19]]
         
 
 ### 🚀 Inicialização e Execução do Motor MCP
@@ -150,7 +150,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     ```
     
     - **Parâmetro Crítico:** Chamar o binário do Python apontando diretamente para o caminho absoluto dentro da `.venv` garante que o servidor rode com todas as bibliotecas necessárias, mesmo se o comando for disparado por um Host externo (como o Claude Desktop) em background.
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 19]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 19]]
         
 
 ### ⚡ Primitivos de Código para Escrita de Servidores (FastMCP Blueprint)
@@ -165,13 +165,13 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     asyncio.run(seu_metodo_principal())
     ```
     
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 19]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 19]]
         
 - **Evitar corrupção de pacotes JSON-RPC via Stdio:**
     
     - **Regra de Ouro:** Nunca utilizar o comando nativo `print()` no escopo global de execução do servidor MCP. O `print()` joga strings brutas no `stdout`, corrompendo a stream de mensageria estruturada que o cliente espera ler, resultando em falhas instantâneas de conexão.
         
-    - **Origem do Conceito:** [[notas_Vector Mathematics_MCP.md#Dia 19]]
+    - **Origem do Conceito:** [[02_notas_Vector Mathematics_MCP#Dia 19]]
 
 
 ### 🚀 Injeção e Inicialização de Servidores Públicos via MCP Inspector
@@ -183,7 +183,7 @@ Este arquivo centraliza todos os snippets práticos, comandos brutos e orientaç
     
     - `/home/lucasrocha/dev`: Delimita o escopo de atuação da IA. O servidor de filesystem restringe as permissões de leitura e escrita (`read_text_file`, `write_file`, `edit_file`) estritamente a este path absoluto, aplicando o princípio do privilégio mínimo.
         
-- **Origem do Conceito:** [[notas_Extensão_NPM_NPX_Python.md]]
+- **Origem do Conceito:** [[X_notas_Extensão_NPM_NPX_Python]]
 
 ### 📂 Gerenciamento de Escopo e Persistência de Ambiente
 * **Injetar e persistir variáveis de ambiente no escopo do usuário:**
