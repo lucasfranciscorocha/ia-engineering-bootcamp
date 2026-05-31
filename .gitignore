@@ -1,0 +1,22 @@
+# Ambientes Virtuais (Python)
+.venv/
+venv/
+ENV/
+
+# Caches do ecossistema Python e Node
+__pycache__/
+*.pyc
+node_modules/
+.npm/
+
+# Configurações locais e credenciais
+.env
+*.log
+
+# Arquivos invisíveis do sistema operacional
+.DS_Store
+.thumbs
+
+# Configurações internas do Obsidian
+.obsidian/
+.trash/

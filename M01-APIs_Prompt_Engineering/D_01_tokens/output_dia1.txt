@@ -1,0 +1,17 @@
+--------------------------------------------------
+Texto original: Engenharia de Prompt com LLMs!
+IDs dos Tokens: [4198, 40967, 10649, 409, 60601, 470, 445, 11237, 82, 0]
+Número total de tokens: 10
+--------------------------------------------------
+Decomposição cirúrgica dos tokens:
+ID: 4198   -> Fragmento: [Eng]
+ID: 40967  -> Fragmento: [enh]
+ID: 10649  -> Fragmento: [aria]
+ID: 409    -> Fragmento: [ de]
+ID: 60601  -> Fragmento: [ Prompt]
+ID: 470    -> Fragmento: [ com]
+ID: 445    -> Fragmento: [ L]
+ID: 11237  -> Fragmento: [LM]
+ID: 82     -> Fragmento: [s]
+ID: 0      -> Fragmento: [!]
+--------------------------------------------------
