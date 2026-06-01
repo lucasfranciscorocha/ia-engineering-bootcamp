@@ -13,7 +13,7 @@ Sou **Designer Gráfico** e auto-iniciado **Engenheiro de IA**, focado em conver
 ---
 ### 🛠️ No que atuo hoje:
 * **Design & Presença Digital:** Desenvolvimento de interfaces estruturadas, layouts promocionais, identidades visuais e e-commerce integrando WordPress e desenvolvimento web fluido.
-### 🗺️ Especialização em Progresso (101 Dias)
+### 🧭  Especialização em Progresso (101 Dias)
 * **Engenharia de IA Local & Web:** Construção de servidores customizados e orquestração de agentes autônomos utilizando o Model Context Protocol (MCP) no ecossistema Ubuntu Linux para implantação em plataformas conectadas.
 * **Sistemas Inteligentes:** Automação de pipelines de dados, auditoria de contextos lógicos e integração de LLMs diretamente no fluxo de trabalho de times criativos.
 
@@ -63,7 +63,7 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 - [x] **Dia 20: Exploração do Ecossistema** — Configuração de instâncias de controle via `claude_desktop_config.json`, integração de conectores open-source (SQLite, GitHub, Google Maps) e mapeamento seguro de arquivos locais.
 - [x] **Dia 21: Construção de Servidores MCP Customizados** — Desenvolvimento prático utilizando os SDKs oficiais do protocolo (Python ou TypeScript), mapeando Resources (leitura), Tools (escrita/ações) e Prompts (templates dinâmicos).
 - [x] **Dia 22: Integração Avançada, Depuração e Produção** — Gestão de segurança em transportes nativos baseados em `Stdio` e `HTTP`, tratamento de limites de contexto e resolução ativa de falhas de barramento assíncrono.
-##### 🧭 Extensão_NPM_NPX_Python
+##### 🗺️ Extensão_NPM_NPX_Python
 * **Core Teórico de Infraestrutura:** Entendimento do protocolo JSON-RPC sobre transporte Stdio (`stdin`/`stdout`). Diagnóstico de corrupção de fluxo de dados causado por outputs não estruturados (como o uso indevido de comandos `print()` globais em background).
 - [x] **Etapa 1: Inspecionar Contratos Públicos (Filesystem Hub) 
 - **O que aprendemos:** Lemos o "contrato" JSON-RPC do servidor oficial de Filesystem da Anthropic usando o MCP Inspector. Entendemos como a IA ganha superpoderes de leitura/escrita e como delimitar uma pasta específica por segurança usando caminhos absolutos no Linux.

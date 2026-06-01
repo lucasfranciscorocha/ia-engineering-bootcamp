@@ -12,7 +12,7 @@ I am a Graphic Designer and self-driven AI Engineer focused on converging high-e
 ---
 ### 🛠️ What I do today:
 * **Design & Digital Presence:** Development of structured interfaces, promotional layouts, visual identities, and e-commerce integrating WordPress and fluid web development.
-### 🗺️ Specialization in Progress (101 Days)
+### 🧭 Specialization in Progress (101 Days)
 * **Local & Web AI Engineering:** Building customized servers and orchestrating autonomous agents using the Model Context Protocol (MCP) in the Ubuntu Linux ecosystem for deployment on connected platforms.
 * **Intelligent Systems:** Automation of data pipelines, auditing of logical contexts, and integration of LLMs directly into the workflow of creative teams.
 ---
@@ -74,7 +74,7 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 
 ---
 
-### 🧭 Special Extension: Node, NPM, NPX, and Python Infrastructure
+### 🗺️ Special Extension: Node, NPM, NPX, and Python Infrastructure
 *Theoretical Core: Deep-dive into JSON-RPC protocol over Stdio (stdin/stdout) transports. Diagnosing data stream corruption caused by unformatted background outputs (e.g., global `print()` statements).*
 
 - [x]  **Step 1: Public Contract Auditing (Filesystem Hub)** — Inspecting the official Anthropic Filesystem JSON-RPC contract via the MCP Inspector, mapping out how the agent securely claims read/write capabilities using strict Linux absolute paths.

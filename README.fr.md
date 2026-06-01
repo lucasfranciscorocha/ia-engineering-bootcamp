@@ -22,42 +22,42 @@ Je suis Designer Graphique et Ingénieur IA autodidacte, spécialisé dans la co
 
 ---
 
-## 🗺️ Le Programme du Bootcamp de 101 Jours
+## 🧭 Le Programme du Bootcamp de 101 Jours
 Un plan de route agile, jalonné d'objectifs précis, alternant entre la rigueur de la science théorique de l'IA et des implémentations pratiques directement dans le terminal.
 
 ### 🧠 Module 00 : IA & LLMs — Les Fondations du "Cerveau"
 *Focus : Mécanique d'inférence, contraintes structurelles des modèles et transition d'une mentalité orientée pixels vers l'intention logique pure.*
 
-   - [ ] **Jour 01 : Le Paysage Global (AI for Everyone)** — Limites opérationnelles des LLM, cartographie de ce que l'intelligence artificielle ne peut pas exécuter et impacts pratiques sur le marché technologique mondial.
-   - [ ] **Jour 02 : La Mathématique du Choix** — Mécanique de la régression linéaire, calibration des poids ($Weights$) et optimisation des biais ($Biases$) pour la pertinence algorithmique des données.
-   - [ ] **Jour 03 : Deep Learning & Réseaux de Neurones** — Architectures de couches profondes interprétées comme des fonctions enchaînées complexes (où la sortie d'une couche alimente l'entrée de la suivante).
-   - [ ] **Jour 04 : Le Tournant : Transformers & Modèles de Raisonnement** — Étude approfondie du mécanisme de Self-Attention (Auto-attention) et traitement de fenêtres de contexte massives. Introduction aux nouveaux paradigmes de modèles de raisonnement natifs entraînés par Apprentissage par Renforcement (Reinforcement Learning).
-   - [ ] **Jour 05 : Tokenisation et Embeddings** — Vectorisation pratique de données textuelles et analyse de la transformation structurelle des chaînes de caractères (strings) en tenseurs numériques via `tiktoken`.
-   - [ ] **Jour 06 : Écosystème Hugging Face & Poids Locaux** — Navigation dans le hub open-source, sélection d'architectures de modèles (Llama-3/Mistral) et configuration d'Ollama pour l'exécution locale hors ligne sur Ubuntu Linux.
-   - [ ] **Jour 07 : Pipelines d'Inférence en Code** — Construction de scripts initiaux en Python pour charger les poids des modèles et exécuter des flux d'inférence sur localhost.
-   - [ ] **Jour 08 : MLOps & Gestion du Cycle de Vie** — Gestion de la dégradation des modèles, contrôle de version des paramètres et analogie structurelle avec la maintenance des cœurs WordPress en production.
-   - [ ] **Jour 09 : Conteneurisation de l'IA avec Docker** — Encapsulation des endpoints de modèles dans des conteneurs légers pour la consommation d'APIs structurées par des applications externes et mobiles.
-   - [ ] **Jour 10 : Éthique, Faisabilité & Plan de Vol** — Revue analytique, gouvernance des données et intégration initiale des outils sous les opérations de Personal Help Desk.
+   - [x] **Jour 01 : Le Paysage Global (AI for Everyone)** — Limites opérationnelles des LLM, cartographie de ce que l'intelligence artificielle ne peut pas exécuter et impacts pratiques sur le marché technologique mondial.
+   - [x] **Jour 02 : La Mathématique du Choix** — Mécanique de la régression linéaire, calibration des poids ($Weights$) et optimisation des biais ($Biases$) pour la pertinence algorithmique des données.
+   - [x] **Jour 03 : Deep Learning & Réseaux de Neurones** — Architectures de couches profondes interprétées comme des fonctions enchaînées complexes (où la sortie d'une couche alimente l'entrée de la suivante).
+   - [x] **Jour 04 : Le Tournant : Transformers & Modèles de Raisonnement** — Étude approfondie du mécanisme de Self-Attention (Auto-attention) et traitement de fenêtres de contexte massives. Introduction aux nouveaux paradigmes de modèles de raisonnement natifs entraînés par Apprentissage par Renforcement (Reinforcement Learning).
+   - [x] **Jour 05 : Tokenisation et Embeddings** — Vectorisation pratique de données textuelles et analyse de la transformation structurelle des chaînes de caractères (strings) en tenseurs numériques via `tiktoken`.
+   - [x] **Jour 06 : Écosystème Hugging Face & Poids Locaux** — Navigation dans le hub open-source, sélection d'architectures de modèles (Llama-3/Mistral) et configuration d'Ollama pour l'exécution locale hors ligne sur Ubuntu Linux.
+   - [x] **Jour 07 : Pipelines d'Inférence en Code** — Construction de scripts initiaux en Python pour charger les poids des modèles et exécuter des flux d'inférence sur localhost.
+   - [x] **Jour 08 : MLOps & Gestion du Cycle de Vie** — Gestion de la dégradation des modèles, contrôle de version des paramètres et analogie structurelle avec la maintenance des cœurs WordPress en production.
+   - [x] **Jour 09 : Conteneurisation de l'IA avec Docker** — Encapsulation des endpoints de modèles dans des conteneurs légers pour la consommation d'APIs structurées par des applications externes et mobiles.
+   - [x] **Jour 10 : Éthique, Faisabilité & Plan de Vol** — Revue analytique, gouvernance des données et intégration initiale des outils sous les opérations de Personal Help Desk.
 
 ---
 
 ### 🔌 Module 01 : APIs & Prompt Engineering — Édition d'Élite
 *Focus : Frameworks industriels d'orchestration de prompts et sécurisation des sorties prévisibles des modèles par validation de code au moment de l'exécution.*
 
-   - [ ] **Jour 11 : Tokenisation Avancée & Internes de LLMs** — Traitement auto-régressif, distribution de probabilité Softmax, optimisation du KV Cache dans la fenêtre de contexte et impact de l'algorithme BPE (Byte Pair Encoding) sur les langues latines.
-   - [ ] **Jour 12 : Anatomie d'un Prompt Efficace & Ingénierie de Contexte** — Implémentation multiniveau du Framework RTOS (Role, Task, Context, Constraint), balises structurelles (délimiteurs XML/Markdown) et atténuation active du biais de peu d'exemples (Few-shot bias).
-   - [ ] **Jour 13 : Raisonnement Logique & Décomposition de Contexte** — Réduction structurelle des hallucinations via des paradigmes avancés de prompting : Chain of Thought (CoT), Self-Consistency et Least-to-Most prompting.
-   - [ ] **Jour 14 : Hyperparamètres Techniques & Sorties Structurées** — Contrôle fin des paramètres d'échantillonnage du modèle (Température, Top-P, Pénalités de Fréquence/Présence) et respect strict des schémas JSON à l'aide de la bibliothèque `Pydantic` en Python.
-   - [ ] **Jour 15 : Frameworks Avancés (RAG, Vecteurs & Tool Use)** — Flux de récupération de données externes, génération d'embeddings indépendants et mécanique systémique des appels de fonctions par les LLM (Function Calling / Tool Use).
-   - [ ] **Jour 16 : MLOps Défensif, Sécurité & Audit** — Blindage des systèmes contre le Prompt Injection et le Jailbreaking ; exécution de validations à l'échelle basées sur des patterns de LLM-as-a-judge et surveillance des logs de production en temps réel.
+   - [x] **Jour 11 : Tokenisation Avancée & Internes de LLMs** — Traitement auto-régressif, distribution de probabilité Softmax, optimisation du KV Cache dans la fenêtre de contexte et impact de l'algorithme BPE (Byte Pair Encoding) sur les langues latines.
+   - [x] **Jour 12 : Anatomie d'un Prompt Efficace & Ingénierie de Contexte** — Implémentation multiniveau du Framework RTOS (Role, Task, Context, Constraint), balises structurelles (délimiteurs XML/Markdown) et atténuation active du biais de peu d'exemples (Few-shot bias).
+   - [x] **Jour 13 : Raisonnement Logique & Décomposition de Contexte** — Réduction structurelle des hallucinations via des paradigmes avancés de prompting : Chain of Thought (CoT), Self-Consistency et Least-to-Most prompting.
+   - [x] **Jour 14 : Hyperparamètres Techniques & Sorties Structurées** — Contrôle fin des paramètres d'échantillonnage du modèle (Température, Top-P, Pénalités de Fréquence/Présence) et respect strict des schémas JSON à l'aide de la bibliothèque `Pydantic` en Python.
+   - [x] **Jour 15 : Frameworks Avancés (RAG, Vecteurs & Tool Use)** — Flux de récupération de données externes, génération d'embeddings indépendants et mécanique systémique des appels de fonctions par les LLM (Function Calling / Tool Use).
+   - [x] **Jour 16 : MLOps Défensif, Sécurité & Audit** — Blindage des systèmes contre le Prompt Injection et le Jailbreaking ; exécution de validations à l'échelle basées sur des patterns de LLM-as-a-judge et surveillance des logs de production en temps réel.
 
 ---
 
 ### 📐 Module 02 : Mathématiques pour Vecteurs et Embeddings — Une Approche Visuelle
 *Focus : Transposition de l'intuition spatiale 3D et vectorielle des logiciels graphiques (Figma/Illustrator) vers la géométrie multidimensionnelle de l'IA.*
 
-   - [ ] **Jour 17 : L'Espace Conceptuel** — Définition géométrique d'un embedding comme une signature d'identité à haute dimension ; maîtrise de la Proximité Sémantique à travers des espaces latents denses (768 à 1536 dimensions).
-   - [ ] **Jour 18 : Mesurer les Relations** — Application mécanique de la Similarité Cosinus pour calculer mathématiquement les angles idéologiques :
+   - [x] **Jour 17 : L'Espace Conceptuel** — Définition géométrique d'un embedding comme une signature d'identité à haute dimension ; maîtrise de la Proximité Sémantique à travers des espaces latents denses (768 à 1536 dimensions).
+   - [x] **Jour 18 : Mesurer les Relations** — Application mécanique de la Similarité Cosinus pour calculer mathématiquement les angles idéologiques :
    $$\cos(\theta) = \frac{A \cdot B}{\|A\| \|B\|}$$
    Compréhension du Produit Scalaire (Dot Product) comme le moteur central qui alimente le Mécanisme d'Attention dans les Transformers, et visualisation pratique des comportements vectoriels dans le RAG à l'aide d'outils comme le TensorFlow Projector.
 
@@ -66,20 +66,20 @@ Un plan de route agile, jalonné d'objectifs précis, alternant entre la rigueur
 ### 🌐 Module 03 : Model Context Protocol (MCP) — Architecture & Hosts Natifs
 *Focus : Briser les silos d'information par la conception, le débogage et l'orchestration de serveurs de protocole unifié sur Ubuntu Linux.*
 
-   - [ ] **Jour 19 : Concept Central & Architecture du Protocole** — Cartographie détaillée du cycle de vie Host ↔ Server ↔ Client, en analysant ses avantages structurels face au Function Calling traditionnel d'APIs isolées.
-   - [ ] **Jour 20 : Exploration de l'Écosystème** — Configuration d'instances de contrôle natives via `claude_desktop_config.json`, intégration de connecteurs open-source (SQLite, GitHub, Google Maps) et bac à sable (sandbox) sécurisé pour les fichiers locaux.
-   - [ ] **Jour 21 : Construction de Serveurs MCP Personnalisés** — Développement de bout en bout à l'aide des SDK officiels de Python et TypeScript, en cartographiant les Resources (lecture seule), les Tools (actions/écriture) et les Prompts dynamiques (gabarits de contexte).
-   - [ ] **Jour 22 : Intégration Avancée, Débogage & Production** — Blindage de la communication sur les transports Stdio et HTTP, gestion des limites de tokens de contexte et résolution des blocages mutuels (deadlocks) sur les bus d'E/S asynchrones.
+   - [x] **Jour 19 : Concept Central & Architecture du Protocole** — Cartographie détaillée du cycle de vie Host ↔ Server ↔ Client, en analysant ses avantages structurels face au Function Calling traditionnel d'APIs isolées.
+   - [x] **Jour 20 : Exploration de l'Écosystème** — Configuration d'instances de contrôle natives via `claude_desktop_config.json`, intégration de connecteurs open-source (SQLite, GitHub, Google Maps) et bac à sable (sandbox) sécurisé pour les fichiers locaux.
+   - [x] **Jour 21 : Construction de Serveurs MCP Personnalisés** — Développement de bout en bout à l'aide des SDK officiels de Python et TypeScript, en cartographiant les Resources (lecture seule), les Tools (actions/écriture) et les Prompts dynamiques (gabarits de contexte).
+   - [x] **Jour 22 : Intégration Avancée, Débogage & Production** — Blindage de la communication sur les transports Stdio et HTTP, gestion des limites de tokens de contexte et résolution des blocages mutuels (deadlocks) sur les bus d'E/S asynchrones.
 
 ---
 
-### 🧭 Extension Spéciale : Infrastructure de Node, NPM, NPX et Python
+### 🗺️ Extension Spéciale : Infrastructure de Node, NPM, NPX et Python
 *Noyau Théorique : Approfondissement du protocole JSON-RPC sur les transports Stdio (stdin/stdout). Diagnostic de corruption des flux de données causée par des sorties non structurées en arrière-plan (comme l'utilisation abusive de print() globaux).*
 
-   - [ ] **Étape 1 : Audit des Contrats Publics (Filesystem Hub)** — Inspection du contrat officiel JSON-RPC du Filesystem d'Anthropic via le MCP Inspector, afin de comprendre comment l'agent revendique des capacités sécurisées de lecture et d'écriture délimitées par des chemins absolus sous Linux.
-   - [ ] **Étape 2 : Configuration des Hosts Natifs (Intégration Claude Desktop)** — Transition hors des environnements de test pour connecter des serveurs propres (Python) et publics (Node.js) directement au cœur d'environnements AI Host réels via des configurations globales.
-   - [ ] **Étape 3 : Orchestration Multi-Serveurs & Concurrence d'E/S** — Analyse du comportement du Host sous des flux concurrents d'entrée/sortie, garantissant que l'agent consulte plusieurs serveurs simultanément sans bloquer la mémoire RAM ou générer de conflits sur le bus de données.
-   - [ ] **Étape 4 : Audit des Logs de Production & Sécurité Avancée** — Simulation d'erreurs de connexion réelles (ex. Broken Pipe, Permission Refusée) et utilisation des commandes du terminal (`tail -f`) pour déboguer les logs de streaming brut en temps réel.
+   - [x] **Étape 1 : Audit des Contrats Publics (Filesystem Hub)** — Inspection du contrat officiel JSON-RPC du Filesystem d'Anthropic via le MCP Inspector, afin de comprendre comment l'agent revendique des capacités sécurisées de lecture et d'écriture délimitées par des chemins absolus sous Linux.
+   - [x] **Étape 2 : Configuration des Hosts Natifs (Intégration Claude Desktop)** — Transition hors des environnements de test pour connecter des serveurs propres (Python) et publics (Node.js) directement au cœur d'environnements AI Host réels via des configurations globales.
+   - [x] **Étape 3 : Orchestration Multi-Serveurs & Concurrence d'E/S** — Analyse du comportement du Host sous des flux concurrents d'entrée/sortie, garantissant que l'agent consulte plusieurs serveurs simultanément sans bloquer la mémoire RAM ou générer de conflits sur le bus de données.
+   - [x] **Étape 4 : Audit des Logs de Production & Sécurité Avancée** — Simulation d'erreurs de connexion réelles (ex. Broken Pipe, Permission Refusée) et utilisation des commandes du terminal (`tail -f`) pour déboguer les logs de streaming brut en temps réel.
 
 ---
 

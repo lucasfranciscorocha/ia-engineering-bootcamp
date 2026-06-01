@@ -12,7 +12,7 @@ Soy Diseñador Gráfico e Ingeniero de IA autodidacta, enfocado en converger la 
 ---
 ### 🛠️ Mi trabajo actual:
 * **Diseño y presencia digital:** Desarrollo de interfaces estructuradas, diseños promocionales, identidades visuales y comercio electrónico, integrando WordPress y desarrollo web fluido.
-### 🗺️ Especialización en curso (101 días)
+### 🧭  Especialización en curso (101 días)
 * **Ingeniería de IA local y web:** Creación de servidores personalizados y orquestación de agentes autónomos mediante el Protocolo de Contexto de Modelo (MCP) en el ecosistema Ubuntu Linux para su implementación en plataformas conectadas.
 * **Sistemas inteligentes:** Automatización de flujos de datos, auditoría de contextos lógicos e integración de modelos de lógica de negocio (LLM) directamente en el flujo de trabajo de equipos creativos.
 ---
@@ -73,7 +73,7 @@ Un mapa de ruta ágil, guiado por hitos, que alterna entre la ciencia teórica r
 
 ---
 
-### 🧭 Extensión Especial: Infraestructura de Node, NPM, NPX y Python
+### 🗺️ Extensión Especial: Infraestructura de Node, NPM, NPX y Python
 *Núcleo Teórico: Profundización en el protocolo JSON-RPC sobre transportes Stdio (stdin/stdout). Diagnóstico de corrupción de flujos de datos causada por salidas no estructuradas en segundo plano (como el uso indebido de comandos print() globales).*
 
 - [x] **Paso 1: Auditoría de Contratos Públicos (Filesystem Hub)** — Inspección del contrato oficial JSON-RPC de Filesystem de Anthropic a través del MCP Inspector, entendiendo cómo el agente reclama capacidades seguras de lectura y escritura delimitadas por rutas absolutas en Linux.
