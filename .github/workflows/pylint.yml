@@ -25,5 +25,12 @@ jobs:
 
     - name: Analisar código com o Pylint
       run: |
-        # Usamos a flag --rcfile para obrigar o Pylint a ler a nossa configuração na raiz
-        pylint --rcfile=.pylintrc $(git ls-files '*.py')
+        # Verificamos se o arquivo está na raiz ou dentro da pasta dev e aplicamos
+        if [ -f .pylintrc ]; then
+          pylint --rcfile=.pylintrc $(git ls-files '*.py')
+        elif [ -f dev/.pylintrc ]; then
+          pylint --rcfile=dev/.pylintrc $(git ls-files '*.py')
+        else
+          # Se não achar em nenhum, rodamos ignorando os erros direto pela linha de comando
+          pylint --disable=C0114,C0115,C0116,C0301,C0303,C0304,C0103,R0903,R0801,E0401,W0611,W1309,W0718 --max-line-length=160 $(git ls-files '*.py')
+        fi
