@@ -3,12 +3,12 @@ I am a Graphic Designer and self-driven AI Engineer focused on converging high-e
 
 ### 🌐 Language Proficiency & Context
 
-[<img src="https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge" alt="Versão em Português">](./README.pt.md)  🇧🇷 **Portuguese:** Native Speaker / Core Operations
+[<img src="https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge" alt="Versão em Português">](./README.pt.md)     🇧🇷 **Portuguese:** Native Speaker / Core Operations
 
-[<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md) 🇪🇸 **Español:** Professional / Conversational (LatAm & European Market Expansion)
+[<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md)     🇪🇸 **Español:** Professional / Conversational (LatAm & European Market Expansion)
 
-[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)  🇫🇷 **Français:** Professional / Conversational (Multilingual UI & Layout Architecture)
-
+[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)      🇫🇷 **Français:** Professional / Conversational (Multilingual UI & Layout Architecture)
+ 
 ---
 ### 🛠️ What I do today:
 * **Design & Digital Presence:** Development of structured interfaces, promotional layouts, visual identities, and e-commerce integrating WordPress and fluid web development.

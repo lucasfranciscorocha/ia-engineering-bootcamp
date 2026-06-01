@@ -3,11 +3,11 @@ Soy Diseñador Gráfico e Ingeniero de IA autodidacta, enfocado en converger la 
 
 ### 🌐 Competencia Lingüística y Contexto
 
-[<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)  🇺🇸 **English:** Professional Working Proficiency (Technical Docs & International Deployments)
+[<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)      🇺🇸 **English:** Professional Working Proficiency (Technical Docs & International Deployments)
 
-[<img src="https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge" alt="Versão em Português">](./README.pt.md)  🇧🇷 **Portuguese:** Native Speaker / Core Operations
+[<img src="https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge" alt="Versão em Português">](./README.pt.md)      🇧🇷 **Portuguese:** Native Speaker / Core Operations
 
-[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)  🇫🇷 **Français:** Professional / Conversational (Multilingual UI & Layout Architecture)
+[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)      🇫🇷 **Français:** Professional / Conversational (Multilingual UI & Layout Architecture)
 
 ---
 ### 🛠️ Mi trabajo actual:

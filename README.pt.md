@@ -4,11 +4,11 @@ Sou **Designer Gráfico** e auto-iniciado **Engenheiro de IA**, focado em conver
 
 ### 🌐 Proficiência Linguística e Contexto
 
-[<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)  🇺🇸 **English:** Profissional / Conversacional em trabalho (documentação técnica e missões internacionais)
+[<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)      🇺🇸 **English:** Profissional / Conversacional em trabalho (documentação técnica e missões internacionais)
 
-[<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md) 🇪🇸 **Español:** Profissional / Conversacional (Expansão para os mercados da América Latina e Europa)
+[<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md)     🇪🇸 **Español:** Profissional / Conversacional (Expansão para os mercados da América Latina e Europa)
 
-[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)  🇫🇷 **Français:** Profissional/Conversacional (Interface de usuário multilíngue e arquitetura de layout)
+[<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)      🇫🇷 **Français:** Profissional/Conversacional (Interface de usuário multilíngue e arquitetura de layout)
 
 ---
 ### 🛠️ No que atuo hoje:
@@ -30,7 +30,7 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 
 ### 🧠 Módulo 00: IA e LLMs — As Fundações do "Cérebro"
 *Foco: Mapeamento de inferência, entendimento de restrições de modelos e transição de mentalidade orientada a pixels para intenção lógica.*
-- [ ] **Dia 01: O Panorama Global (AI for Everyone)** — Limitações operacionais de IA, mapeamento do que a inteligência artificial não é capaz de executar e impactos práticos no mercado de tecnologia.
+- [x] **Dia 01: O Panorama Global (AI for Everyone)** — Limitações operacionais de IA, mapeamento do que a inteligência artificial não é capaz de executar e impactos práticos no mercado de tecnologia.
 - [x] **Dia 02: A Matemática das Escolhas** — Fórmulas de regressão linear, calibração de pesos (*Weights*) e vieses (*Biases*) no ajuste de relevância de dados.
 - [x] **Dia 03: Deep Learning & Redes Neurais** — Arquiteturas de camadas profundas interpretadas como funções encadeadas complexas (onde o *output* de uma camada alimenta o *input* da seguinte).
 - [x] **Dia 04: O Divisor de Águas: Transformers & Modelos de Raciocínio** — Estudo aprofundado do mecanismo de *Self-Attention* (Atenção) e processamento de contextos massivos. Introdução aos novos paradigmas de modelos de raciocínio nativo (*Reasoning Models* via Reinforcement Learning).
