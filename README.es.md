@@ -22,7 +22,7 @@ Soy Diseñador Gráfico e Ingeniero de IA autodidacta, enfocado en converger la 
 
 ---
 
-## 🗺️ El Plan de Estudios del Bootcamp de 101 Días
+## 🧭 El Plan de Estudios del Bootcamp de 101 Días
 Un mapa de ruta ágil, guiado por hitos, que alterna entre la ciencia teórica rigurosa de la IA y las implementaciones prácticas directamente en la terminal.
 
 ### 🧠 Módulo 00: IA y LLMs — Las Fundaciones del "Cerebro"
