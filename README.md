@@ -23,7 +23,7 @@ I am a Graphic Designer and self-driven AI Engineer focused on converging high-e
 
 ---
 
-## 🗺️ The 101-Day Bootcamp Curriculum
+## 🧭 The 101-Day Bootcamp Curriculum
 An agile, milestone-driven roadmap alternating between rigorous theoretical AI science and hands-on terminal implementations.
 
 ### 🧠 Module 00: AI & LLMs — The Foundations of the "Brain"
