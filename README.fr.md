@@ -4,7 +4,9 @@ Je suis Designer Graphique et Ingénieur IA autodidacte, spécialisé dans la co
 ## 🌐 Compétences Linguistiques & Contexte 
 
 [<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)  🇺🇸 **English:** Compétences professionnelles (documents techniques et déploiements internationaux)
+
 [<img src="https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge" alt="Versão em Português">](./README.pt.md)  🇧🇷 **Portuguese:** Locuteur natif / Opérations principales
+
 [<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md) 🇪🇸 **Español:** Professionnel / Conversationnel (Expansion sur les marchés latino-américain et européen)
 
 ---
