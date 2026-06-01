@@ -21,8 +21,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
         # Instala automaticamente todas as bibliotecas de IA do seu projeto para o Pylint não se perder
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi      
+
     - name: Analisar código com o Pylint
       run: |
-        pylint $(git ls-files '*.py')
+        # Usamos a flag --rcfile para obrigar o Pylint a ler a nossa configuração na raiz
+        pylint --rcfile=.pylintrc $(git ls-files '*.py')
