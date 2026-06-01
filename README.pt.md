@@ -5,7 +5,9 @@ Sou **Designer Gráfico** e auto-iniciado **Engenheiro de IA**, focado em conver
 ### 🌐 Proficiência Linguística e Contexto
 
 [<img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English version">](./README.md)  🇺🇸 **English:** Profissional / Conversacional em trabalho (documentação técnica e missões internacionais)
+
 [<img src="https://img.shields.io/badge/Idioma-Español-yellow?style=for-the-badge" alt="Versión en Español">](./README.es.md) 🇪🇸 **Español:** Profissional / Conversacional (Expansão para os mercados da América Latina e Europa)
+
 [<img src="https://img.shields.io/badge/Langue-Français-red?style=for-the-badge" alt="Version Française">](./README.fr.md)  🇫🇷 **Français:** Profissional/Conversacional (Interface de usuário multilíngue e arquitetura de layout)
 
 ---
