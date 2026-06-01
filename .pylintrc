@@ -16,12 +16,17 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         
-    - name: Install dependencies
+    - name: Instalar Dependências
       run: |
         python -m pip install --upgrade pip
-        # Instalamos Pylint y TODAS las librerías que tus scripts de IA están usando para evitar el error E0401
-        pip install pylint google-genai pydantic tiktoken transformers requests python-dotenv
+        pip install pylint
         
-    - name: Analysing the code with pylint
+        # 1. Instala as dependências mapeadas no seu requirements.txt
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+        # 2. Garante explicitamente os pacotes de IA e MCP para eliminar de vez o erro E0401
+        pip install google-genai pydantic tiktoken transformers requests python-dotenv mcp
+        
+    - name: Analisar código com o Pylint
       run: |
         pylint $(git ls-files '*.py')
