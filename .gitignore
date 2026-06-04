@@ -17,6 +17,7 @@ node_modules/
 .DS_Store
 .thumbs
 
-# Configurações internas do Obsidian
-.obsidian/
+# Configurações internas do Obsidian (Garante em subpastas também)
+**/workspace.json
+**/workspace-mobile.json
 .trash/
