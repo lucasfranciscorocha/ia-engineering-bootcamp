@@ -86,8 +86,8 @@ Un plan de route agile, jalonné d'objectifs précis, alternant entre la rigueur
 ### 🤖 Module 04 : Orchestration d'Agents Autonomes
 *Focus : Ingénierie d'architectures cycliques avec état, réseaux multi-agents et automatisation de flux de travail opérationnels pour la production technique et créative.*
 
-   - [ ] **Jour 23 : Anatomie d'un Agent** — Transition des systèmes réactifs (Chatbots) vers des systèmes déterministes construits sur la boucle Perception → Planification → Action.
-   - [ ] **Jour 24 : Techniques de Planification Complexe** — Algorithmes de décomposition de tâches pour les processus d'ingénierie spécialisés combinés avec des boucles récursives d'autoréflexion (Self-Criticism).
+   - [x] **Jour 23 : Anatomie d'un Agent** — Transition des systèmes réactifs (Chatbots) vers des systèmes déterministes construits sur la boucle Perception → Planification → Action.
+   - [x] **Jour 24 : Techniques de Planification Complexe** — Algorithmes de décomposition de tâches pour les processus d'ingénierie spécialisés combinés avec des boucles récursives d'autoréflexion (Self-Criticism).
    - [ ] **Jour 25 : Gestion de la Mémoire à Court & Long Terme** — Persistance de l'historique d'exécution tout au long des flux de travail en utilisant des magasins vectoriels locaux, des paires clé-valeur et des machines à états étendues.
    - [ ] **Jour 26 : Utilisation des Outils en Pratique** — Activation sécurisée pour que les agents interagissent de manière autonome avec des APIs web externes, des clients de bases de données, des environnements d'exécution de code isolés et des scrapers web.
    - [ ] **Jour 27 : Frameworks I : LangChain & LangGraph** — Développement de graphes cycliques dirigés et avec état pour permettre aux agents d'exécuter des boucles complexes, du routage conditionnel et l'annulation automatisée d'actions erronées.

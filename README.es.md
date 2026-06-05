@@ -86,8 +86,8 @@ Un mapa de ruta ágil, guiado por hitos, que alterna entre la ciencia teórica r
 ### 🤖 Módulo 04: Orquestación de Agentes Autónomos
 *Enfoque: Ingeniería de arquitecturas cíclicas con estado, redes multiagente y automatización de flujos de trabajo operativos para la producción técnica y creativa.*
 
-- [ ] **Día 23: Anatomía de un Agente** — Transición de sistemas reactivos (Chatbots) hacia sistemas deterministas construidos sobre el bucle Percepción → Planificación → Acción.
-- [ ] **Día 24: Técnicas de Planificación Compleja** — Algoritmos de descomposición de tareas para procesos de ingeniería especializados combinados con bucles recursivos de autorreflexión (Self-Criticism).
+- [x] **Día 23: Anatomía de un Agente** — Transición de sistemas reactivos (Chatbots) hacia sistemas deterministas construidos sobre el bucle Percepción → Planificación → Acción.
+- [x] **Día 24: Técnicas de Planificación Compleja** — Algoritmos de descomposición de tareas para procesos de ingeniería especializados combinados con bucles recursivos de autorreflexión (Self-Criticism).
 - [ ] **Día 25: Gestión de Memoria a Corto y Largo Plazo** — Persistencia del historial de ejecución a lo largo de los flujos de trabajo utilizando almacenes vectoriales locales, pares clave-valor y máquinas de estado extendidas.
 - [ ] **Día 26: Uso de Herramientas en la Práctica** — Habilitación segura para que los agentes interactúen autónomamente con APIs web externas, clientes de bases de datos, entornos de ejecución de código aislados y scrapers web.
 - [ ] **Día 27: Frameworks I: LangChain y LangGraph** — Desarrollo de grafos cíclicos dirigidos y con estado para permitir que los agentes ejecuten bucles complejos, enrutamiento condicional y reversión automatizada de acciones erróneas.

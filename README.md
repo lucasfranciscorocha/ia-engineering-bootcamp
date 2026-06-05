@@ -87,8 +87,8 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 ### 🤖 Module 04: Autonomous Agents Orchestration
 *Focus: Engineering cyclic stateful architectures, multi-agent networks, and operational workflow automation for design and tech production.*
 
-- [ ]  **Day 23: Anatomy of an Agent** — Transitioning from reactive systems (Chatbots) to deterministic systems built upon the Percept → Plan → Action loop.
-- [ ]  **Day 24: Complex Planning Techniques** — Task decomposition algorithms for specialized engineering processes paired with recursive self-reflection loops.
+- [x]  **Day 23: Anatomy of an Agent** — Transitioning from reactive systems (Chatbots) to deterministic systems built upon the Percept → Plan → Action loop.
+- [x]  **Day 24: Complex Planning Techniques** — Task decomposition algorithms for specialized engineering processes paired with recursive self-reflection loops.
 - [ ]   **Day 25: Short-Term & Long-Term Memory Management** — Persisting execution history across workflows using localized vector stores, key-value pairs, and extended runtime state machines.
 - [ ]  **Day 26: Tool Use in Practice** — Safely enabling agents to autonomously interface with external web APIs, database clients, secure code execution sandboxes, and web scrapers.
 - [ ]  **Day 27: Frameworks I: LangChain & LangGraph** — Developing stateful, directed cyclic graphs to allow agents to execute complex loops, conditional routing, and automated action rollbacks.

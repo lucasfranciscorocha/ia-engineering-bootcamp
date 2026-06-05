@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"9edc0c3ef0eb8a68","x":-1760,"y":-460,"width":1480,"height":380,"type":"text","text":"```mermaid\ngraph TD\n    A[Projeto / Workspace] --> B[Camada 1: Virtual Environments]\n    A --> C[Camada 2: Runtime Runtimes]\n    A --> D[Camada 3: Containers / Docker]\n    \n    B --> B1[Python: venv / uv]\n    B --> B2[Node: nvm / volta]\n    \n    C --> C1[Docker Engine]\n    C --> C2[Podman / Lima]\n    \n    D --> D1[Imagens Base]\n    D --> D2[Volumes Persistentes]\n    \n    style A fill:#f9f,stroke:#333,stroke-width:2px\n    style B fill:#bbf,stroke:#333,stroke-width:1px\n    style C fill:#bbf,stroke:#333,stroke-width:1px\n    style D fill:#bbf,stroke:#333,stroke-width:1px\n```\n\n\n"}
+	],
+	"edges":[]
+}

@@ -78,8 +78,8 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 - **Prática:** Forçar erros de conexão reais (como simular um _Broken Pipe_ ou permissão negada) e usar comandos do terminal para ler o arquivo de log do Host em tempo real (`tail -f`), identificando a falha exata em segundos.
 ### 🤖 Módulo 04: Orquestração de Agentes Autónomos 
 *Foco: Engenharia de sistemas cíclicos, redes multiagentes e automação operacional de workflows técnicos criativos.*
-- [ ] **Dia 23: Anatomia de um Agente** — Diferenciação de sistemas reativos (Chatbots) para sistemas determinísticos baseados no ciclo Percepção → Planejamento → Ação.
-- [ ] **Dia 24: Técnicas de Planejamento Complexo** — Algoritmos de decomposição de tarefas de engenharia e loops recursivos de auto-reflexão (*Self-Criticism*).
+- [x] **Dia 23: Anatomia de um Agente** — Diferenciação de sistemas reativos (Chatbots) para sistemas determinísticos baseados no ciclo Percepção → Planejamento → Ação.
+- [x] **Dia 24: Técnicas de Planejamento Complexo** — Algoritmos de decomposição de tarefas de engenharia e loops recursivos de auto-reflexão (*Self-Criticism*).
 - [ ] **Dia 25: Gestão de Memórias de Curto e Longo Prazo** — Persistência de contexto histórico de execução de processos utilizando bancos vetoriais locais e logs estendidos.
 - [ ] **Dia 26: Tool Use & Function Calling** — Ensinar agentes a interagir com APIs externas, calculadoras, interpretadores de código e navegadores de forma segura.
 - [ ] **Dia 27: Frameworks I: LangChain & LangGraph** — Desenvolvimento focado em grafos de estados direcionados, permitindo lógica cíclica e rollback de ações incorretas.
