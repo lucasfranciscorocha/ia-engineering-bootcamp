@@ -170,3 +170,35 @@ Este ficheiro constitui o repositório central atemporal de jargões industriais
     - _Conceito:_ Uma decomposição hierárquica e probabilística do escopo total de um projeto em tarefas menores e gerenciáveis. É o framework ideal para estimar horas precisas e estruturar cronogramas complexos de engenharia.
 
 Guarde este repositório! Conforme avançar pelas semanas do bootcamp e os termos começarem a surgir na sua tela preta do terminal, volte aqui para correlacionar a mecânica física do sistema operacional com a lógica abstrata da inteligência artificial.
+
+
+# Apendice
+
+
+### Vector Search 2.0
+
+- **Fundamentos:**
+    
+    - **Embeddings:** Vetores numéricos que capturam a semântica de dados multimodais.
+        
+    - **Vector Database:** Sistema especializado em busca por similaridade semântica.
+        
+    - **ScaNN:** Algoritmo de busca do Google focado em performance e escala (bilhões de vetores).
+        
+- **Mecanismos de Busca:**
+    
+    - **kNN (k-Nearest Neighbors):** Busca exata, ideal para desenvolvimento e datasets pequenos.
+        
+    - **ANN (Approximate Nearest Neighbor):** Busca aproximada, ideal para produção em larga escala, focando em baixíssima latência.
+        
+    - **Hybrid Search:** Integração de busca semântica + busca textual (keyword), essencial para cobrir SKUs e termos novos.
+        
+    - **RRF (Reciprocal Rank Fusion):** Técnica que normaliza e mescla scores de busca semântica e textual.
+        
+- **Arquitetura e Operação:**
+    
+    - **Collection:** Container que unifica armazenamento de dados (metadados) e vetores (dispensa banco de dados externo/Feature Store).
+        
+    - **Auto-Embeddings:** Geração automática de vetores pelo modelo, eliminando complexidade de infra de embedding.
+        
+    - **Task Type Embeddings:** Técnica de otimização de "assimetria" (ex: definir se o dado é `RETRIEVAL_DOCUMENT` ou `YoutubeING`) que pode aumentar a relevância em até 40%.

@@ -89,8 +89,8 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 
 - [x]  **Day 23: Anatomy of an Agent** — Transitioning from reactive systems (Chatbots) to deterministic systems built upon the Percept → Plan → Action loop.
 - [x]  **Day 24: Complex Planning Techniques** — Task decomposition algorithms for specialized engineering processes paired with recursive self-reflection loops.
-- [ ]   **Day 25: Short-Term & Long-Term Memory Management** — Persisting execution history across workflows using localized vector stores, key-value pairs, and extended runtime state machines.
-- [ ]  **Day 26: Tool Use in Practice** — Safely enabling agents to autonomously interface with external web APIs, database clients, secure code execution sandboxes, and web scrapers.
+- [x]   **Day 25: Short-Term & Long-Term Memory Management** — Persisting execution history across workflows using localized vector stores, key-value pairs, and extended runtime state machines.
+- [x]  **Day 26: Tool Use in Practice** — Safely enabling agents to autonomously interface with external web APIs, database clients, secure code execution sandboxes, and web scrapers.
 - [ ]  **Day 27: Frameworks I: LangChain & LangGraph** — Developing stateful, directed cyclic graphs to allow agents to execute complex loops, conditional routing, and automated action rollbacks.
 - [ ]  **Day 28: Frameworks II: CrewAI & AutoGen** — Multi-agent system architectures operating via hierarchical or horizontal task delegation to solve large-scale operational workloads.
 - [ ]  **Day 29: Agentic RAG** — Embedding dynamic contextual lookup strategies directly into the agent’s pre-action planning phase.

@@ -103,3 +103,54 @@ Aqui está o esquema visual e técnico desse fluxo:
 ### 📝 Sugestão de Sincronização para o seu Obsidian
 
 Você pode copiar o bloco abaixo e colar direto no arquivo `notas_AI_LLM.md` ou na sua nota principal de revisão para deixar o seu histórico 100% mapeado:
+
+
+# Modelos de Fundação (Foundation Models)
+
+O fluxo de trabalho dos modelos de fundação divide-se em três etapas críticas: **Treinamento de Dados**, **Representação no Modelo** e **Adaptação para Tarefas**.
+
+## 1. Entrada de Dados (Ingestion)
+
+O modelo é treinado sobre uma base de dados vasta e multimodal. Esta diversidade é o que permite ao modelo generalizar conceitos complexos:
+
+- **Texto:** Linguagem natural, código e lógica simbólica.
+    
+- **Imagem:** Dados visuais e relações espaciais.
+    
+- **Speech (Áudio):** Sinais de áudio e padrões de voz.
+    
+- **Structured Data:** Tabelas, bancos de dados e metadados.
+    
+- **3D Signals:** Dados espaciais e geometrias complexas.
+    
+
+## 2. O Modelo de Fundação (The Foundation)
+
+Este é o "cérebro" treinado. Diferente de modelos tradicionais focados em uma única tarefa, um Modelo de Fundação atua como um sistema versátil.
+
+- **Treinamento (Training):** Fase computacionalmente intensiva onde o modelo aprende representações internas (_embeddings_) de todos os tipos de dados de entrada.
+    
+- **Natureza:** O modelo age como um compressor de conhecimento, capturando a estrutura subjacente dos dados multimodais.
+    
+
+## 3. Adaptação (Task Adaptation)
+
+Após o treinamento, o modelo não é estático; ele é adaptado para tarefas específicas (o chamado _downstream tasks_):
+
+- **Task-Specific Logic:** Aplicação do conhecimento para resolver problemas como:
+    
+    - **QA (Question Answering):** Raciocínio lógico e busca de contexto.
+        
+    - **Sentiment Analysis:** Interpretação de intenção e emoção.
+        
+    - **Information Extraction:** Transformação de dados não estruturados em estruturados.
+        
+    - **Vision Tasks:** Captioning e reconhecimento de objetos.
+        
+    - **Instruction Following:** Execução de prompts complexos.
+
+
+![[Gemini_Generated.png]]
+
+
+

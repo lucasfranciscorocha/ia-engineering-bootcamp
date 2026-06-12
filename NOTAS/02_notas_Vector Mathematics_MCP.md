@@ -220,3 +220,28 @@ O **MCP Inspector** é uma ferramenta de auditoria visual de pacotes desenvolvid
 - **Bypass de Segurança para Dev (`DANGEROUSLY_OMIT_AUTH=true`):** Variável de ambiente injetada em tempo de execução para desativar a barreira do token em ambientes de desenvolvimento locais estritamente controlados, acelerando os testes de integração de novas ferramentas.
     
 - **Desacoplamento Estatístico de Tokens:** O inspetor permite simular chamadas de IA e testar o comportamento físico de leitura de arquivos ou cálculos matemáticos do servidor **sem gastar um único token** de APIs comerciais (como Claude ou Gemini), reduzindo o custo de desenvolvimento a zero durante a fase de testes.
+
+
+
+### Resumo: Pontos Críticos de Atenção
+
+Para o seu **Módulo 00**, estes são os "gargalos" que você deve monitorar ao construir seu sistema:
+
+1. **Otimização de "Task Type" (O divisor de águas):**
+    
+    - **Ponto Crítico:** Não trate todos os embeddings como iguais. Usar o `task_type` correto para documentos versus consultas (queries) é o que separa um protótipo de um sistema de busca de nível industrial. A assimetria é uma feature, não um erro.
+        
+2. **O Equilíbrio da Busca Híbrida:**
+    
+    - **Ponto Crítico:** O Vector Search 2.0 resolve a separação entre "banco vetorial" e "banco de dados" ao unificar tudo. O desafio agora é o **ajuste do RRF**. Você precisa garantir que a busca por palavras-chave (SKUs) não seja "anulada" pela semântica (intenção), e vice-versa.
+        
+3. **A Transição de Escala (Desenvolvimento vs. Produção):**
+    
+    - **Ponto Crítico:** O sistema permite começar com `kNN` (zero latência de indexação), mas você **deve** planejar a migração para `ANN` (`ScaNN`) antes de ir para produção. A infraestrutura de busca não escala linearmente; a escolha do _shard size_ e do _node holding_ são decisões críticas de performance.
+        
+4. **Complexidade da Infraestrutura vs. Foco no Produto:**
+    
+    - **Ponto Crítico:** O grande valor do Vector Search 2.0 é abstrair o "trabalho sujo" (indexação, sync de feature stores, batching de embeddings). O seu papel como Arquiteto de IA passa a ser **Curadoria de Dados e Engenharia de Prompt**, e não manutenção de _pipes_ de dados.
+        
+
+> **Nota do Arquiteto:** Em seu sistema "Anti-Gravity", utilize a `Collection` para manter seus dados de produto e embeddings acoplados. Isso simplificará drasticamente seu Docker Compose, reduzindo os pontos de falha (pontos de sincronização) entre diferentes serviços.
