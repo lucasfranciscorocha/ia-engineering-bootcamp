@@ -91,22 +91,22 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 - [x]  **Day 24: Complex Planning Techniques** — Task decomposition algorithms for specialized engineering processes paired with recursive self-reflection loops.
 - [x]   **Day 25: Short-Term & Long-Term Memory Management** — Persisting execution history across workflows using localized vector stores, key-value pairs, and extended runtime state machines.
 - [x]  **Day 26: Tool Use in Practice** — Safely enabling agents to autonomously interface with external web APIs, database clients, secure code execution sandboxes, and web scrapers.
-- [ ]  **Day 27: Frameworks I: LangChain & LangGraph** — Developing stateful, directed cyclic graphs to allow agents to execute complex loops, conditional routing, and automated action rollbacks.
-- [ ]  **Day 28: Frameworks II: CrewAI & AutoGen** — Multi-agent system architectures operating via hierarchical or horizontal task delegation to solve large-scale operational workloads.
-- [ ]  **Day 29: Agentic RAG** — Embedding dynamic contextual lookup strategies directly into the agent’s pre-action planning phase.
-- [ ]  **Day 30: Merging the MCP Data Bus** — Unifying concepts: mounting custom MCP servers directly onto autonomous agent frameworks, granting them localized execution capabilities on the host OS.
-- [ ]  **Day 31: Applied Production Mini-Project** — Building an automated creative engineering agent (e.g., parsing raw PDF client briefs via reverse prompt engineering to generate structured feature sets and tailored CSS layouts).
-- [ ]  **Day 32: Traceability & Advanced Debugging** — Monitoring token consumption and path routing using modern LLM observability platforms (LangSmith / Phoenix).
-- [ ]  **Day 33: Governance, Guardrails & Human-in-the-Loop** — Hardening agent networks against infinite execution loops and setting up structural gates for human validation.
+- [x]  **Day 27: Frameworks I: LangChain & LangGraph** — Developing stateful, directed cyclic graphs to allow agents to execute complex loops, conditional routing, and automated action rollbacks.
+- [x]  **Day 28: Frameworks II: CrewAI & AutoGen** — Multi-agent system architectures operating via hierarchical or horizontal task delegation to solve large-scale operational workloads.
+- [x]  **Day 29: Agentic RAG** — Embedding dynamic contextual lookup strategies directly into the agent’s pre-action planning phase.
+- [x]  **Day 30: Merging the MCP Data Bus** — Unifying concepts: mounting custom MCP servers directly onto autonomous agent frameworks, granting them localized execution capabilities on the host OS.
+- [x]  **Day 31: Applied Production Mini-Project** — Building an automated creative engineering agent (e.g., parsing raw PDF client briefs via reverse prompt engineering to generate structured feature sets and tailored CSS layouts).
+- [x]  **Day 32: Traceability & Advanced Debugging** — Monitoring token consumption and path routing using modern LLM observability platforms (LangSmith / Phoenix).
+- [x]  **Day 33: Governance, Guardrails & Human-in-the-Loop** — Hardening agent networks against infinite execution loops and setting up structural gates for human validation.
 
 ---
 
 ### 🗄️ Module 05: Professional RAG Systems Architecture
 *Focus: Advanced extraction, ingestion, vector modeling, and deterministic retrieval of unstructured enterprise data.*
 
-- [ ] **Day 34: Ingestion Pipelines: RAG vs. Fine-Tuning** — Architectural evaluation of dynamic external context retrieval versus embedding domain knowledge directly into parametric memory.
-- [ ]  **Day 35: Document Loading & High-Fidelity Parsing** — Extracting and cleaning raw, noisy text from complex multi-column PDFs, Markdown documentation, and custom CMS payloads (HTML/WordPress).
-- [ ]  **Day 36: Advanced Chunking Strategies** — Implementing structural, token-based, and semantic chunking to preserve local parent contexts.
+- [x] **Day 34: Ingestion Pipelines: RAG vs. Fine-Tuning** — Architectural evaluation of dynamic external context retrieval versus embedding domain knowledge directly into parametric memory.
+- [x]  **Day 35: Document Loading & High-Fidelity Parsing** — Extracting and cleaning raw, noisy text from complex multi-column PDFs, Markdown documentation, and custom CMS payloads (HTML/WordPress).
+- [x]  **Day 36: Advanced Chunking Strategies** — Implementing structural, token-based, and semantic chunking to preserve local parent contexts.
 - [ ]  **Day 37: Embedding Model Evaluation** — Executing benchmarks between closed proprietary APIs and localized open-source embedding weights via Hugging Face.
 - [ ]  **Day 38: Vector Databases I** — Practical setup, scaling, and indexing of vector mathematical coordinates across modern stores (ChromaDB, Pinecone, or Weaviate).
 - [ ]  **Day 39: Similarity Indexing Mechanics** — Configuring index algorithms tailored for Cosine Similarity versus Dot Product or Euclidean Distance.

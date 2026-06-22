@@ -88,24 +88,24 @@ Un mapa de ruta ágil, guiado por hitos, que alterna entre la ciencia teórica r
 
 - [x] **Día 23: Anatomía de un Agente** — Transición de sistemas reactivos (Chatbots) hacia sistemas deterministas construidos sobre el bucle Percepción → Planificación → Acción.
 - [x] **Día 24: Técnicas de Planificación Compleja** — Algoritmos de descomposición de tareas para procesos de ingeniería especializados combinados con bucles recursivos de autorreflexión (Self-Criticism).
-- [ ] **Día 25: Gestión de Memoria a Corto y Largo Plazo** — Persistencia del historial de ejecución a lo largo de los flujos de trabajo utilizando almacenes vectoriales locales, pares clave-valor y máquinas de estado extendidas.
-- [ ] **Día 26: Uso de Herramientas en la Práctica** — Habilitación segura para que los agentes interactúen autónomamente con APIs web externas, clientes de bases de datos, entornos de ejecución de código aislados y scrapers web.
-- [ ] **Día 27: Frameworks I: LangChain y LangGraph** — Desarrollo de grafos cíclicos dirigidos y con estado para permitir que los agentes ejecuten bucles complejos, enrutamiento condicional y reversión automatizada de acciones erróneas.
-- [ ] **Día 28: Frameworks II: CrewAI y AutoGen** — Arquitecturas de sistemas multiagente que operan a través de la delegación jerárquica u horizontal de tareas para resolver cargas de trabajo operativas a gran escala.
-- [ ] **Día 29: RAG Agéntico** — Integración de estrategias dinámicas de búsqueda contextual directamente en la fase de planificación previa a la acción del agente.
-- [ ] **Día 30: Conexión del Bus de Datos MCP** — Unificación de conceptos: montaje de servidores MCP personalizados directamente sobre frameworks de agentes autónomos, otorgándoles capacidades de ejecución local en el SO host.
-- [ ] **Día 31: Miniproyecto Aplicado de Producción** — Construcción de un agente automatizado de ingeniería creativa (p. ej., análisis de briefings de clientes en PDF mediante ingeniería de prompts inversa para generar hojas de estilo CSS personalizadas y estructuras de código).
-- [ ] **Día 32: Trazabilidad y Depuración Avanzada** — Monitoreo del consumo de tokens y enrutamiento de rutas utilizando plataformas modernas de observabilidad de LLMs (LangSmith / Phoenix).
-- [ ] **Día 33: Gobernanza, Guardrails y Human-in-the-Loop** — Blindaje de redes de agentes contra bucles infinitos de ejecución y establecimiento de compuertas estructurales para la validación humana.
+- [x] **Día 25: Gestión de Memoria a Corto y Largo Plazo** — Persistencia del historial de ejecución a lo largo de los flujos de trabajo utilizando almacenes vectoriales locales, pares clave-valor y máquinas de estado extendidas.
+- [x] **Día 26: Uso de Herramientas en la Práctica** — Habilitación segura para que los agentes interactúen autónomamente con APIs web externas, clientes de bases de datos, entornos de ejecución de código aislados y scrapers web.
+- [x] **Día 27: Frameworks I: LangChain y LangGraph** — Desarrollo de grafos cíclicos dirigidos y con estado para permitir que los agentes ejecuten bucles complejos, enrutamiento condicional y reversión automatizada de acciones erróneas.
+- [x] **Día 28: Frameworks II: CrewAI y AutoGen** — Arquitecturas de sistemas multiagente que operan a través de la delegación jerárquica u horizontal de tareas para resolver cargas de trabajo operativas a gran escala.
+- [x] **Día 29: RAG Agéntico** — Integración de estrategias dinámicas de búsqueda contextual directamente en la fase de planificación previa a la acción del agente.
+- [x] **Día 30: Conexión del Bus de Datos MCP** — Unificación de conceptos: montaje de servidores MCP personalizados directamente sobre frameworks de agentes autónomos, otorgándoles capacidades de ejecución local en el SO host.
+- [x] **Día 31: Miniproyecto Aplicado de Producción** — Construcción de un agente automatizado de ingeniería creativa (p. ej., análisis de briefings de clientes en PDF mediante ingeniería de prompts inversa para generar hojas de estilo CSS personalizadas y estructuras de código).
+- [x] **Día 32: Trazabilidad y Depuración Avanzada** — Monitoreo del consumo de tokens y enrutamiento de rutas utilizando plataformas modernas de observabilidad de LLMs (LangSmith / Phoenix).
+- [x] **Día 33: Gobernanza, Guardrails y Human-in-the-Loop** — Blindaje de redes de agentes contra bucles infinitos de ejecución y establecimiento de compuertas estructurales para la validación humana.
 
 ---
 
 ### 🗄️ Módulo 05: Arquitectura de Sistemas RAG Profesionales
 *Enfoque: Ingestión avanzada, extracción, modelado vectorial y recuperación determinista de datos corporativos no estructurados.*
 
-- [ ] **Día 34: Pipelines de Ingestión: RAG vs. Fine-Tuning** — Evaluación arquitectónica de la recuperación de contexto externo dinámico frente a la incrustación de conocimiento especializado directamente en la memoria paramétrica del modelo.
-- [ ] **Día 35: Carga de Documentos y Parseo de Alta Fidelidad** — Extracción y limpieza de texto sin procesar proveniente de PDFs complejos de múltiples columnas, documentación en Markdown y cargas útiles de CMS personalizados (HTML/WordPress).
-- [ ] **Día 36: Estrategias Avanzadas de Chunking** — Implementación de fragmentación estructural, basada en tokens y semántica para preservar los contextos primarios de los fragmentos padres.
+- [x] **Día 34: Pipelines de Ingestión: RAG vs. Fine-Tuning** — Evaluación arquitectónica de la recuperación de contexto externo dinámico frente a la incrustación de conocimiento especializado directamente en la memoria paramétrica del modelo.
+- [x] **Día 35: Carga de Documentos y Parseo de Alta Fidelidad** — Extracción y limpieza de texto sin procesar proveniente de PDFs complejos de múltiples columnas, documentación en Markdown y cargas útiles de CMS personalizados (HTML/WordPress).
+- [x] **Día 36: Estrategias Avanzadas de Chunking** — Implementación de fragmentación estructural, basada en tokens y semántica para preservar los contextos primarios de los fragmentos padres.
 - [ ] **Día 37: Evaluación de Modelos de Embedding** — Ejecución de benchmarks entre APIs cerradas propietarias y pesos de embedding de código abierto ejecutados localmente mediante Hugging Face.
 - [ ] **Día 38: Bases de Datos Vectoriales I** — Configuración práctica, escalado e indexación de coordenadas matemáticas vectoriales en almacenes líderes de la industria (ChromaDB, Pinecone o Weaviate).
 - [ ] **Día 39: Mecánica de Indexación por Similitud** — Configuración de algoritmos de indexación adaptados para la Similitud de Coseno frente al Producto Escalar o la Distancia Euclidia.

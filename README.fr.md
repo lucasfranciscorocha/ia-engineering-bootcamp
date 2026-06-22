@@ -88,24 +88,24 @@ Un plan de route agile, jalonné d'objectifs précis, alternant entre la rigueur
 
    - [x] **Jour 23 : Anatomie d'un Agent** — Transition des systèmes réactifs (Chatbots) vers des systèmes déterministes construits sur la boucle Perception → Planification → Action.
    - [x] **Jour 24 : Techniques de Planification Complexe** — Algorithmes de décomposition de tâches pour les processus d'ingénierie spécialisés combinés avec des boucles récursives d'autoréflexion (Self-Criticism).
-   - [ ] **Jour 25 : Gestion de la Mémoire à Court & Long Terme** — Persistance de l'historique d'exécution tout au long des flux de travail en utilisant des magasins vectoriels locaux, des paires clé-valeur et des machines à états étendues.
-   - [ ] **Jour 26 : Utilisation des Outils en Pratique** — Activation sécurisée pour que les agents interagissent de manière autonome avec des APIs web externes, des clients de bases de données, des environnements d'exécution de code isolés et des scrapers web.
-   - [ ] **Jour 27 : Frameworks I : LangChain & LangGraph** — Développement de graphes cycliques dirigés et avec état pour permettre aux agents d'exécuter des boucles complexes, du routage conditionnel et l'annulation automatisée d'actions erronées.
-   - [ ] **Jour 28 : Frameworks II : CrewAI & AutoGen** — Architectures de systèmes multi-agents opérant via la délégation hiérarchique ou horizontale de tâches pour résoudre des charges de travail opérationnelles à grande échelle.
-   - [ ] **Jour 29 : RAG Agentique** — Intégration de stratégies dynamiques de recherche contextuelle directement dans la phase de planification préalable à l'action de l'agent.
-   - [ ] **Jour 30 : Connexion du Bus de Données MCP** — Unification des concepts : montage de serveurs MCP personnalisés directement sur des frameworks d'agents autonomes, leur octroyant des capacités d'exécution locale sur l'OS hôte.
-   - [ ] **Jour 31 : Mini-projet Appliqué de Production** — Construction d'un agent automatisé d'ingénierie créative (ex. analyse de briefs clients en PDF par ingénierie de prompts inverse pour générer des feuilles de style CSS personnalisées et des structures de code).
-   - [ ] **Jour 32 : Traçabilité & Débogage Avancé** — Surveillance du comportement des tokens et enrutement des chemins à l'aide de plateformes modernes d'observabilité des LLMs (LangSmith / Phoenix).
-   - [ ] **Jour 33 : Gouvernance, Guardrails & Human-in-the-Loop** — Blindage des réseaux d'agents contre les boucles d'exécution infinies et établissement de barrières structurelles pour la validation humaine.
+   - [x] **Jour 25 : Gestion de la Mémoire à Court & Long Terme** — Persistance de l'historique d'exécution tout au long des flux de travail en utilisant des magasins vectoriels locaux, des paires clé-valeur et des machines à états étendues.
+   - [x] **Jour 26 : Utilisation des Outils en Pratique** — Activation sécurisée pour que les agents interagissent de manière autonome avec des APIs web externes, des clients de bases de données, des environnements d'exécution de code isolés et des scrapers web.
+   - [x] **Jour 27 : Frameworks I : LangChain & LangGraph** — Développement de graphes cycliques dirigés et avec état pour permettre aux agents d'exécuter des boucles complexes, du routage conditionnel et l'annulation automatisée d'actions erronées.
+   - [x] **Jour 28 : Frameworks II : CrewAI & AutoGen** — Architectures de systèmes multi-agents opérant via la délégation hiérarchique ou horizontale de tâches pour résoudre des charges de travail opérationnelles à grande échelle.
+   - [x] **Jour 29 : RAG Agentique** — Intégration de stratégies dynamiques de recherche contextuelle directement dans la phase de planification préalable à l'action de l'agent.
+   - [x] **Jour 30 : Connexion du Bus de Données MCP** — Unification des concepts : montage de serveurs MCP personnalisés directement sur des frameworks d'agents autonomes, leur octroyant des capacités d'exécution locale sur l'OS hôte.
+   - [x] **Jour 31 : Mini-projet Appliqué de Production** — Construction d'un agent automatisé d'ingénierie créative (ex. analyse de briefs clients en PDF par ingénierie de prompts inverse pour générer des feuilles de style CSS personnalisées et des structures de code).
+   - [x] **Jour 32 : Traçabilité & Débogage Avancé** — Surveillance du comportement des tokens et enrutement des chemins à l'aide de plateformes modernes d'observabilité des LLMs (LangSmith / Phoenix).
+   - [x] **Jour 33 : Gouvernance, Guardrails & Human-in-the-Loop** — Blindage des réseaux d'agents contre les boucles d'exécution infinies et établissement de barrières structurelles pour la validation humaine.
 
 ---
 
 ### 🗄️ Module 05 : Architecture de Systèmes RAG Professionnels
 *Focus : Ingestion avancée, extraction, modélisation vectorielle et récupération déterministe de données d'entreprise non structurées.*
 
-   - [ ] **Jour 34 : Pipelines d'Ingestion : RAG vs Fine-Tuning** — Évaluation architecturale de la récupération de contexte externe dynamique face à l'incorporation de connaissances spécialisées directement dans la mémoire paramétrique du modèle.
-   - [ ] **Jour 35 : Chargement de Documents & Parseo de Haute Fidélité** — Extraction et nettoyage de texte brut provenant de PDFs complexes à colonnes multiples, de documentation en Markdown et de payloads de CMS personnalisés (HTML/WordPress).
-   - [ ] **Jour 36 : Stratégies Avancées de Chunking** — Implémentation d'un découpage structurel, basé sur les tokens et sémantique pour préserver les contextes parents des fragments.
+   - [x] **Jour 34 : Pipelines d'Ingestion : RAG vs Fine-Tuning** — Évaluation architecturale de la récupération de contexte externe dynamique face à l'incorporation de connaissances spécialisées directement dans la mémoire paramétrique du modèle.
+   - [x] **Jour 35 : Chargement de Documents & Parseo de Haute Fidélité** — Extraction et nettoyage de texte brut provenant de PDFs complexes à colonnes multiples, de documentation en Markdown et de payloads de CMS personnalisés (HTML/WordPress).
+   - [x] **Jour 36 : Stratégies Avancées de Chunking** — Implémentation d'un découpage structurel, basé sur les tokens et sémantique pour préserver les contextes parents des fragments.
    - [ ] **Jour 37 : Évaluation des Modèles d'Embedding** — Exécution de benchmarks entre des APIs fermées propriétaires et des poids d'embeddings open-source exécutés localement via Hugging Face.
    - [ ] **Jour 38 : Bases de Données Vectorielles I** — Configuration pratique, mise à l'échelle et indexation de coordonnées mathématiques vectorielles dans les magasins leaders du marché (ChromaDB, Pinecone ou Weaviate).
    - [ ] **Jour 39 : Mécanique d'Indexation par Similarité** — Configuration d'algorithmes d'indexation adaptés pour la Similarité Cosinus face au Produit Scalaire ou à la Distance Euclidienne.

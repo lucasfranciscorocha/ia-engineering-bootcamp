@@ -116,21 +116,21 @@ A tua pasta `/home/lucasrocha/#dev/#aulas-praticas/` contém a seguinte infraest
 ### 🤖 Módulo 4: Orquestração de Agentes Autónomos (11 Dias)
 *Foco: Criação de sistemas inteligentes cíclicos com capacidade de tomada de decisão, uso de ferramentas e aprovação humana.*
 
-- [ ] **DIA 23: Anatomia de um Agente Autónomo**
+- [x] **DIA 23: Anatomia de um Agente Autónomo**
 	- O loop de execução agêntica: Percepção de ambiente -> Planeamento interno -> Ação. A diferença entre automação sequencial e agentes.
-- [ ] **DIA 24: Planeamento de Tarefas e Auto-Reflexão**
+- [x] **DIA 24: Planeamento de Tarefas e Auto-Reflexão**
 	- Técnicas de decomposição de problemas complexos e mecanismos de auto-crítica (*Self-Criticism*), ensinando o agente a validar o seu próprio output antes de o entregar.
-- [ ] **DIA 25: Gestão de Memória Agêntica**
+- [x] **DIA 25: Gestão de Memória Agêntica**
 	- Implementação de memória de curto prazo (estados do chat e janelas de contexto dinâmicas) e memória de longo prazo (armazenamento persistente de logs no disco rígido do Linux).
-- [ ] **DIA 26: Tool Use e Function Calling Prático**
+- [x] **DIA 26: Tool Use e Function Calling Prático**
 	- Escrever funções nativas em Python e ensinar o Gemini a decidir autonomamente se precisa de invocar essas funções com base no input do terminal.
-- [ ] **DIA 27: Grafos de Decisão Cíclicos (LangGraph)**
+- [x] **DIA 27: Grafos de Decisão Cíclicos (LangGraph)**
 	- Introdução ao desenvolvimento estruturado em grafos (Nós e Arestas). Criação de fluxos onde o agente pode reverter caminhos se encontrar um erro na execução de uma tarefa.
-- [ ] **DIA 28: Sistemas Multi-Agente com CrewAI**
+- [x] **DIA 28: Sistemas Multi-Agente com CrewAI**
 	- Orquestração e divisão de tarefas entre múltiplos agentes especialistas. Configuração de uma equipa virtual onde um agente atua como Designer UX e o outro como Programador WordPress.
-- [ ] **DIA 29: RAG Dinâmico Orientado a Agentes**
+- [x] **DIA 29: RAG Dinâmico Orientado a Agentes**
 	- Implementação de uma ferramenta onde o próprio agente calcula a similaridade vetorial (Módulo 2) e decide de forma autónoma *quando* precisa de consultar a documentação externa.
-- [ ] **DIA 30: Integração do teu Servidor MCP Local**
+- [x] **DIA 30: Integração do teu Servidor MCP Local**
 	- Acoplamento do servidor MCP que construíste no Módulo 3 ao teu Agente. A IA passa a usar o protocolo como um braço mecânico para ler e escrever ficheiros reais na tua pasta `/home/lucasrocha/#dev/#aulas-praticas/`.
 - [ ] **DIA 31: Desenvolvimento do Mini-Projeto (Agente Designer/Dev)**
 	- *Projeto Prático:* Criar uma automação local isolada no teu `venv` que recebe um briefing de um cliente em Markdown, analisa os requisitos visuais, planeia os blocos e cospe um arquivo `variables.css` higienizado e a estrutura de pastas do tema WordPress correspondente.

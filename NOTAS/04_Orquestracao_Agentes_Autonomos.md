@@ -1,3 +1,5 @@
+
+
 ## Dia 23: Anatomia de um Agente Autônomo
 
 Para entender como orquestrar múltiplos agentes mais adiante, precisamos primeiro entender a engenharia interna de um único agente. Ao contrário de um script linear ou de uma chamada simples de API de LLM, um agente autônomo opera em um ciclo contínuo de percepção, tomada de decisão e ação.
@@ -409,3 +411,141 @@ O laboratório atua como um sistema determinístico baseado em ciclos:
 _Este processo demonstra a capacidade de transitar de uma infraestrutura local (Docker-based) para um ambiente nativo em nuvem (Cloud Shell), utilizando ferramentas de automação de fluxo de trabalho (GitHub CLI) e seguindo as melhores práticas de **Secret Management** exigidas em ambientes de produção de agentes autônomos._
 
 Você pode copiar esse conteúdo para um arquivo chamado `LOG_AULA_DAY_23.md` dentro da sua pasta e mantê-lo como seu registro oficial! Vamos seguir para a primeira tarefa prática do Codelab agora?
+
+
+## 🛠️ Exercício 
+
+## Módulo 4 - Dia 27: Arquitetura com LangGraph
+
+Vamos desenhar o mapa do fluxo do seu **Extrator de Mailing Seguro** usando a lógica de Grafos. Imagine que o sistema possui 3 Nós e 1 Aresta Condicional. Escreva no seu Obsidian como ficaria esse desenho de fluxo:
+
+1. **Nó 1 (Agente Coletor):** Recebe o texto bruto e executa a ferramenta de RegEx. Ele salva os números encontrados no `State`.
+    
+2. **Aresta Condicional (Roteador):** Avalia a quantidade de contatos no `State`.
+    
+    - _Condição A:_ Se a lista de contatos estiver vazia → Desvia o fluxo para o **Nó 3 (Agente de Ajuste)**.
+        
+    - _Condição B:_ Se a lista contiver contatos → Envia o fluxo direto para o **Nó 2 (Agente Formatador)**.
+        
+3. **Nó 2 (Agente Formatador):** Organiza os dados em um JSON/CSV final para o seu mailing e encerra o processo.
+    
+4. **Nó 3 (Agente de Ajuste/Alerta):** Solicita ao operador humano uma nova entrada de texto mais limpa, impedindo o sistema de travar ou quebrar em produção.
+    
+
+No seu Obsidian, responda: **Qual é a grande vantagem de usar uma Aresta Condicional controlando o fluxo do agente em vez de simplesmente deixar a própria LLM decidir por texto livre o que fazer quando a extração falha?** Pense na previsibilidade do seu sistema.
+
+Assim que registrar esse desenho de arquitetura no seu vault e estiver pronto para avançar para os sistemas de multi-agentes hierárquicos com **CrewAI e AutoGen (Dia 28)**, me dê o sinal aqui!
+
+
+### 👥 EQUIPE VIRTUAL: AGÊNCIA IA LOCAL "ORIGINAL"
+
+#### 1. Agente: Designer de Interfaces UX/UI
+* **Role:** Designer Especialista em Sistemas de Design e Acessibilidade.
+* **Goal:** Transformar briefings brutos em estruturas de tokens visuais organizados.
+* **Backstory:** [Escreva aqui 1 ou 2 frases detalhando a personalidade/foco desse agente. Ex: "Você tem um olho clínico para consistência e rejeita qualquer layout que viole as diretrizes da WCAG..."]
+
+#### 2. Agente: Desenvolvedor WordPress Core
+* **Role:** Engenheiro de Software Sênior especializado em PHP e CSS limpo.
+* **Goal:** Traduzir especificações de design em código otimizado para o ecossistema WordPress.
+* **Backstory:** [Escreva aqui 1 ou 2 frases definindo a rigidez técnica dele com performance e semântica de código.]
+
+---
+
+### 📋 MAPEAMENTO DE TASKS (Fluxo Sequencial)
+
+#### Task 1: Estruturação Visual (Executada pelo Designer)
+* **Descrição:** Analisar o briefing fornecido pelo operador e gerar a tabela de tokens de design.
+* **Expected Output (Resultado Esperado):** Uma lista estruturada em Markdown contendo: Cores Primárias/Secundárias em Hexadecimal, Escala de Fontes (rem) e Margens padrão.
+
+#### Task 2: Codificação de Infraestrutura (Executada pelo Dev)
+* **Descrição:** Ler o Markdown gerado pela Task 1 e gerar os arquivos de código.
+* **Contexto de Entrada:** Output da Task 1.
+* **Expected Output (Resultado Esperado):** [Defina exatamente o que o desenvolvedor deve cuspir como entrega final para a sua pasta de desenvolvimento.]
+
+
+### 👥 EQUIPE VIRTUAL: CÉLULA DE SETUP E AUDITORIA "AJUSTADO"
+
+#### 1. Agente: Analista de Soluções e Templates (Pesquisador)
+
+- **Role:** Arquiteto de Soluções WordPress e Pesquisador de Componentes.
+    
+- **Goal:** Mapear os melhores templates, layouts e módulos estruturais baseados nas necessidades de negócio do cliente.
+    
+- **Backstory:** Você é especialista no ecossistema WordPress, Elementor e blocos Gutenberg. Seu foco é identificar estruturas prontas que resolvam problemas comuns (como catálogos de produtos, formulários de conversão e blocos de redes sociais) sem reinventar a roda.
+    
+
+#### 2. Agente: Engenheiro de Performance e Auditoria (Consultor)
+
+- **Role:** Auditor de Código, UI e Ecossistema WordPress.
+    
+- **Goal:** Gerar relatórios detalhados de adequação de marca e recomendação de ferramentas.
+    
+- **Backstory:** Você avalia o trabalho do Pesquisador sob a ótica de performance, semântica e identidade visual. Você traduz o layout encontrado em tokens de design (cores, fontes) e dita quais plugins homologados e leves (ex: Rank Math para SEO, Fluent Forms para formulários) devem ser usados.
+    
+
+#### 3. Agente: Desenvolvedor Front-End Júnior (Executor)
+
+- **Role:** Técnico de Implementação Web e Ajustes de UI.
+    
+- **Goal:** Executar modificações superficiais de estilo, parametrização e CSS de forma segura.
+    
+- **Backstory:** Você é o braço mecânico da equipe. Você não altera a arquitetura do core do tema; seu foco é aplicar os tokens de cores, configurar os plugins recomendados e injetar o CSS de ajustes finos (como paddings e margens) ditados pelo Auditor.
+    
+
+### 📋 NOVO MAPEAMENTO DE TASKS (Fluxo de Execução Triplo)
+
+#### Task 1: Pesquisa Estrutural de Componentes
+
+- **Responsável:** Analista de Soluções (Pesquisador)
+    
+- **Descrição:** Analisar o briefing do cliente e varrer os padrões de templates que contenham nativamente os módulos exigidos: **Módulo de Produtos/Portfólio**, **Formulários de Captura** e **Integrações de Redes Sociais**.
+    
+- **Expected Output (Resultado Esperado):** Um documento Markdown listando os 2 melhores caminhos estruturais ou templates de referência que possuem esses módulos nativos, justificando a escolha baseada nos requisitos do cliente.
+    
+
+#### Task 2: Auditoria Visual e Estratégia de Plugins
+
+- **Responsável:** Engenheiro de Performance (Auditor)
+    
+- **Contexto de Entrada:** Output da Task 1.
+    
+- **Descrição:** Ler a estrutura recomendada pela Task 1. Extrair quais serão as alterações necessárias para adequar esse template à identidade do cliente. Mapear a paleta de cores substituta, a escala tipográfica e listar exatamente quais plugins específicos (e leves) devem ser instalados para cobrir os módulos (ex: produtos, formulário).
+    
+- **Expected Output (Resultado Esperado):** Um **Relatório Técnico de Alterações** contendo:
+    
+    1. Tabela de Cores e Fontes (De: Original -> Para: Nova Marca).
+        
+    2. Lista de Plugins Sugeridos com suas respectivas funções justificadas.
+        
+
+#### Task 3: Execução de Ajustes Superficiais e Setup
+
+- **Responsável:** Dev Júnior (Executor)
+    
+- **Contexto de Entrada:** Output da Task 2 (O Relatório).
+    
+- **Descrição:** Receber o Relatório de Alterações. Simular ou aplicar as configurações recomendadas. Gerar o arquivo de estilos de CSS superficial (`custom-adjustments.css`) aplicando os paddings, cores e tipografia aprovados no relatório, além de listar os comandos de ativação de plugins.
+    
+- **Expected Output (Resultado Esperado):** O arquivo de código CSS final higienizado pronto para inserção e o log de modificações superficiais concluídas com sucesso.
+    
+
+### 🧠 Por que isso funciona tão bem no CrewAI?
+
+Ao delegar a execução fina para o **Agente 3**, você isola o código de produção de grandes estragos. O Agente 3 não precisa decidir _o que_ instalar ou _qual_ cor usar; ele apenas lê o relatório mastigado e determinístico do **Agente 2** e executa a tarefa repetitiva. Isso reduz a taxa de erro do sistema para próximo de zero.
+
+Organize essa estrutura no seu Obsidian. Quando terminar e estiver pronto para ver como o **RAG Dinâmico (Dia 29)** daria ao Agente 1 a capacidade de buscar essas documentações de templates em arquivos locais, me dê o sinal verde!
+
+
+[Briefing do Cliente em Markdown] 
+               │
+               ▼  (O Agente lê usando o Servidor MCP Local)
+      [ Agente Pesquisador ]
+               │
+               ▼  (Percebe que não conhece o template ideal)
+   [ Ativa o RAG Dinâmico ] ───► (Busca termos no ChromaDB local)
+               │
+               ▼  (Retorna as especificações do template)
+      [ Agente Pesquisador ]
+               │
+               ▼  (Escreve o plano de execução via MCP direto na sua pasta)
+   [ Arquivo plano_web.md gerado no Ubuntu ]

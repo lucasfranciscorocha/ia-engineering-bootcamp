@@ -80,20 +80,20 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 *Foco: Engenharia de sistemas cíclicos, redes multiagentes e automação operacional de workflows técnicos criativos.*
 - [x] **Dia 23: Anatomia de um Agente** — Diferenciação de sistemas reativos (Chatbots) para sistemas determinísticos baseados no ciclo Percepção → Planejamento → Ação.
 - [x] **Dia 24: Técnicas de Planejamento Complexo** — Algoritmos de decomposição de tarefas de engenharia e loops recursivos de auto-reflexão (*Self-Criticism*).
-- [ ] **Dia 25: Gestão de Memórias de Curto e Longo Prazo** — Persistência de contexto histórico de execução de processos utilizando bancos vetoriais locais e logs estendidos.
-- [ ] **Dia 26: Tool Use & Function Calling** — Ensinar agentes a interagir com APIs externas, calculadoras, interpretadores de código e navegadores de forma segura.
-- [ ] **Dia 27: Frameworks I: LangChain & LangGraph** — Desenvolvimento focado em grafos de estados direcionados, permitindo lógica cíclica e rollback de ações incorretas.
-- [ ] **Dia 28: Frameworks II: CrewAI & AutoGen** — Arquitetura de Sistemas Multiagentes operando através de delegação de tarefas de forma síncrona/assíncrona para resolução de problemas em larga escala.
-- [ ] **Dia 29: RAG Nativo para Agentes** — Estratégias de pesquisa contextual em bases proprietárias antes do disparo do gatilho de ação do agente.
-- [ ] **Dia 30: Conectando o Barramento MCP** — Junção das frentes: utilizando os servidores MCP construídos no Módulo 06 para conceder aos agentes capacidade real de ler/escrever no sistema operacional local.
-- [ ] **Dia 31: Mini-Projeto Aplicado de Produção** — Desenvolvimento de um agente focado na automação de processos criativos e de desenvolvimento (Ex: Agente para engenharia de prompt reversa em briefings PDFs ou geração estruturada de código e folhas de estilo CSS).
-- [ ] **Dia 32: Rastreabilidade e Debugging** — Monitoramento fino do fluxo de pensamento e caminhos de raciocínio lógico utilizando plataformas de observabilidade (LangSmith ou Phoenix).
-- [ ] **Dia 33: Governança, Guardrails e Human-in-the-loop** — Implementação de travas de segurança contra loops infinitos de execução e inserção de etapas de aprovação humana estratégica.
+- [x] **Dia 25: Gestão de Memórias de Curto e Longo Prazo** — Persistência de contexto histórico de execução de processos utilizando bancos vetoriais locais e logs estendidos.
+- [x] **Dia 26: Tool Use & Function Calling** — Ensinar agentes a interagir com APIs externas, calculadoras, interpretadores de código e navegadores de forma segura.
+- [x] **Dia 27: Frameworks I: LangChain & LangGraph** — Desenvolvimento focado em grafos de estados direcionados, permitindo lógica cíclica e rollback de ações incorretas.
+- [x] **Dia 28: Frameworks II: CrewAI & AutoGen** — Arquitetura de Sistemas Multiagentes operando através de delegação de tarefas de forma síncrona/assíncrona para resolução de problemas em larga escala.
+- [x] **Dia 29: RAG Nativo para Agentes** — Estratégias de pesquisa contextual em bases proprietárias antes do disparo do gatilho de ação do agente.
+- [x] **Dia 30: Conectando o Barramento MCP** — Junção das frentes: utilizando os servidores MCP construídos no Módulo 06 para conceder aos agentes capacidade real de ler/escrever no sistema operacional local.
+- [x] **Dia 31: Mini-Projeto Aplicado de Produção** — Desenvolvimento de um agente focado na automação de processos criativos e de desenvolvimento (Ex: Agente para engenharia de prompt reversa em briefings PDFs ou geração estruturada de código e folhas de estilo CSS).
+- [x] **Dia 32: Rastreabilidade e Debugging** — Monitoramento fino do fluxo de pensamento e caminhos de raciocínio lógico utilizando plataformas de observabilidade (LangSmith ou Phoenix).
+- [x] **Dia 33: Governança, Guardrails e Human-in-the-loop** — Implementação de travas de segurança contra loops infinitos de execução e inserção de etapas de aprovação humana estratégica.
 ### 🗄️ Módulo 05: Arquitetura de Sistemas RAG Profissional
 *Foco: Extração, modelagem, armazenamento vetorial e recuperação avançada de dados corporativos não estruturados.*
-- [ ] **Dia 34: O Pipeline de Ingestão: RAG vs. Fine-tuning** — Entendimento de conhecimento externo dinâmico vs. conhecimento interno embutido nos pesos do modelo.
-- [ ] **Dia 35: Document Loading & Parsing** — Extração e limpeza de textos complexos contidos em PDFs estruturados, Markdown e marcações de CMS (HTML/WordPress).
-- [ ] **Dia 36: Estratégias de Chunking** — Fragmentação de documentos (fixas, por parágrafos ou semânticas) preservando limites contextuais primários.
+- [x] **Dia 34: O Pipeline de Ingestão: RAG vs. Fine-tuning** — Entendimento de conhecimento externo dinâmico vs. conhecimento interno embutido nos pesos do modelo.
+- [x] **Dia 35: Document Loading & Parsing** — Extração e limpeza de textos complexos contidos em PDFs estruturados, Markdown e marcações de CMS (HTML/WordPress).
+- [x] **Dia 36: Estratégias de Chunking** — Fragmentação de documentos (fixas, por parágrafos ou semânticas) preservando limites contextuais primários.
 - [ ] **Dia 37: Seleção de Modelos de Embedding** — Análise e benchmarks entre modelos proprietários (OpenAI, Google) e open-source locais via Hugging Face.
 - [ ] **Dia 38: Bancos de Dados Vetoriais I** — Configuração e ingestão prática de vetores em bancos líderes (ChromaDB, Pinecone ou Weaviate).
 - [ ] **Dia 39: Indexação e Busca por Similaridade** — Configuração interna de busca baseada em Similaridade de Cosseno vs. Distância Euclidiana.
