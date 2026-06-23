@@ -107,8 +107,8 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 - [x] **Day 34: Ingestion Pipelines: RAG vs. Fine-Tuning** — Architectural evaluation of dynamic external context retrieval versus embedding domain knowledge directly into parametric memory.
 - [x]  **Day 35: Document Loading & High-Fidelity Parsing** — Extracting and cleaning raw, noisy text from complex multi-column PDFs, Markdown documentation, and custom CMS payloads (HTML/WordPress).
 - [x]  **Day 36: Advanced Chunking Strategies** — Implementing structural, token-based, and semantic chunking to preserve local parent contexts.
-- [ ]  **Day 37: Embedding Model Evaluation** — Executing benchmarks between closed proprietary APIs and localized open-source embedding weights via Hugging Face.
-- [ ]  **Day 38: Vector Databases I** — Practical setup, scaling, and indexing of vector mathematical coordinates across modern stores (ChromaDB, Pinecone, or Weaviate).
+- [x]  **Day 37: Embedding Model Evaluation** — Executing benchmarks between closed proprietary APIs and localized open-source embedding weights via Hugging Face.
+- [x]  **Day 38: Vector Databases I** — Practical setup, scaling, and indexing of vector mathematical coordinates across modern stores (ChromaDB, Pinecone, or Weaviate).
 - [ ]  **Day 39: Similarity Indexing Mechanics** — Configuring index algorithms tailored for Cosine Similarity versus Dot Product or Euclidean Distance.
 - [ ] **Day 40: End-to-End Baseline Pipeline** — Building an automated pipeline that ingests a raw asset, parses content, generates embeddings, and persists vector indexes locally.
 - [ ]  **Day 41: Advanced Retrieval Frameworks** — Mitigating information loss by implementing Parent Document Retrieval and Sentence Window Retrieval systems.
