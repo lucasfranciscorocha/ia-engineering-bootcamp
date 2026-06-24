@@ -108,8 +108,8 @@ Un plan de route agile, jalonné d'objectifs précis, alternant entre la rigueur
    - [x] **Jour 36 : Stratégies Avancées de Chunking** — Implémentation d'un découpage structurel, basé sur les tokens et sémantique pour préserver les contextes parents des fragments.
    - [x] **Jour 37 : Évaluation des Modèles d'Embedding** — Exécution de benchmarks entre des APIs fermées propriétaires et des poids d'embeddings open-source exécutés localement via Hugging Face.
    - [x] **Jour 38 : Bases de Données Vectorielles I** — Configuration pratique, mise à l'échelle et indexation de coordonnées mathématiques vectorielles dans les magasins leaders du marché (ChromaDB, Pinecone ou Weaviate).
-   - [ ] **Jour 39 : Mécanique d'Indexation par Similarité** — Configuration d'algorithmes d'indexation adaptés pour la Similarité Cosinus face au Produit Scalaire ou à la Distance Euclidienne.
-   - [ ] **Jour 40 : Pipeline de Ligne Base de Bout en Bout** — Construction d'un pipeline automatisé qui ingère un actif brut, analyse le contenu, génère des embeddings et persiste les index vectoriels localement.
+   - [x] **Jour 39 : Mécanique d'Indexation par Similarité** — Configuration d'algorithmes d'indexation adaptés pour la Similarité Cosinus face au Produit Scalaire ou à la Distance Euclidienne.
+   - [x] **Jour 40 : Pipeline de Ligne Base de Bout en Bout** — Construction d'un pipeline automatisé qui ingère un actif brut, analyse le contenu, génère des embeddings et persiste les index vectoriels localement.
    - [ ] **Jour 41 : Frameworks de Récupération Avancée** — Atténuation de la perte d'information par l'implémentation de systèmes de Parent Document Retrieval (Récupération de Documents Parents) et de Sentence Window Retrieval.
    - [ ] **Jour 42 : Systèmes de Transformation de Requêtes** — Automatisation du raffinement des requêtes via la génération algorithmique de requêtes multiples et d'Embeddings de Documents Hypothetiques (HyDE).
    - [ ] **Jour 43 : Récupération en Deux Étapes avec Modèles de Reranking** — Intégration de couches de réordonnancement neuronal (Cohere Rerank ou BGE Reranker) pour maximiser la pertinence des top-$K$ contextes.

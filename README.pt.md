@@ -96,8 +96,8 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 - [x] **Dia 36: Estratégias de Chunking** — Fragmentação de documentos (fixas, por parágrafos ou semânticas) preservando limites contextuais primários.
 - [x] **Dia 37: Seleção de Modelos de Embedding** — Análise e benchmarks entre modelos proprietários (OpenAI, Google) e open-source locais via Hugging Face.
 - [x] **Dia 38: Bancos de Dados Vetoriais I** — Configuração e ingestão prática de vetores em bancos líderes (ChromaDB, Pinecone ou Weaviate).
-- [ ] **Dia 39: Indexação e Busca por Similaridade** — Configuração interna de busca baseada em Similaridade de Cosseno vs. Distância Euclidiana.
-- [ ] **Dia 40: Revisão Prática de Ponta a Ponta** — Construção de um pipeline automatizado que lê um arquivo `.txt`, executa o parsing e persiste os embeddings localmente.
+- [x] **Dia 39: Indexação e Busca por Similaridade** — Configuração interna de busca baseada em Similaridade de Cosseno vs. Distância Euclidiana.
+- [x] **Dia 40: Revisão Prática de Ponta a Ponta** — Construção de um pipeline automatizado que lê um arquivo `.txt`, executa o parsing e persiste os embeddings localmente.
 - [ ] **Dia 41: Estratégias Avançadas de Recuperação** — Implementação prática de técnicas complexas como *Parent Document Retrieval* e *Sentence Window Retrieval*.
 - [ ] **Dia 42: Transformação de Queries** — Técnicas de reescrita automatizada de perguntas dos usuários utilizando fluxos de *Multi-query* e *HyDE*.
 - [ ] **Dia 43: Modelos de Reranking** — Acoplamento de camadas de reordenação estrutural (Cohere Rerank ou BGE) para otimização da relevância de resultados de topo.
