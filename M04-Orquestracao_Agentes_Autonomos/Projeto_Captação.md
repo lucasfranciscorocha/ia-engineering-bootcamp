@@ -5,7 +5,7 @@ Para que o nosso futuro contêiner consiga conversar com o mundo externo e com o
 
 - **Google Places API:** Permite que o agente pesquise os estabelecimentos e nichos comerciais diretamente na base de dados de mapas do Google.
 
-**Chave API =**  AIzaSyADZBnGbx_XnD5wfBfEw5jE0JEnnzNDOh8
+**Chave API =**
    
 - **Google Sheets API:** Permite que o agente escreva os resultados diretamente na planilha que você vai compartilhar com ele.
 
