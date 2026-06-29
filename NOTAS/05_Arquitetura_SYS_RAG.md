@@ -490,3 +490,63 @@ O RRF ignora as notas brutas (que usam escalas incompatíveis) e funde os result
 ### Notas Importantes de Resolução de Problemas (Troubleshooting): 
 * **Erro 404 - Model Not Found:** Ambientes controlados ou legados (como instâncias sandbox do Qwiklabs) podem não ter quotas ativas para modelos de fronteira (`gemini-embedding-2`). A mitigação padrão de infraestrutura consiste em forçar o fallback para o modelo estável homologado corporativo (`text-embedding-004`). 
 * **Filtragem por Metadados:** Para evitar que termos parecidos de setores distintos (ex: Finanças vs. Programação) causem sobreposição vetorial, deve-se acoplar tags de metadados estruturados aos vetores para a execução de filtragem rígida (*Hard Filtering*) pré-cálculo de cosseno.
+
+
+---
+tags: [gcp, vertex-ai, rag, pipelines, prompt-engineering, dia-40]
+
+# 🧠 Dia 40: Orquestração RAG e Conexão de Contexto com Gemini
+
+## 🔍 Notas de Revisão (Lab Anterior Reaplicado)
+- [ ] Tempo de execução do deploy da e2-standard-16: ___ minutos.
+- [ ] Lembrete técnico: Casamento rígido entre Dimensões do Modelo (768) e Configuração do Índice (768).
+
+## 🎛️ Arquitetura do Prompt de Injeção de Amanhã
+*Amanhã vamos construir a lógica para envelopar a busca dentro de uma estrutura restritiva:*
+- **System Instruction:** "Você é um assistente... aja estritamente sob o contexto..."
+- **Context Block:** ${contexto_recuperado_do_vertex}
+- **User Prompt:** ${pergunta_usuario}
+
+## 📝 Descobertas dos Labs Extras
+*(Preencher durante a execução dos novos laboratórios)*
+
+
+---
+tags: [gcp, vertex-ai, rag-triad, avaliacao, LLMops, dia-41]
+
+---
+
+# 🧠 Dia 41: Métricas de Avaliação e Proteção contra Alucinações (RAG Triad)
+
+## 📐 As Três Pernas da Tríade RAG
+*Notas rápidas sobre como testar o motor da agência:*
+- **Relevância do Contexto:** Garante que o Vector Search não entregue o insumo errado para o Gemini.
+- **Fidelidade (Groundedness):** O maior escudo anti-alucinação. Mede o quanto a resposta está "ancorada" no contexto.
+- **Relevância da Resposta:** Garante que a abordagem comercial seja direta, fluida e natural.
+
+## 📥 Débitos Técnicos / Laboratórios para Revisitar
+- [ ] Lab Extra: Pipelines de avaliação automatizada (Mapeado para revisão posterior).
+- [ ] Reaplicação do deploy do Vertex AI com dimensões corrigidas (768).
+
+## 💡 Insights de Aplicação Prática
+*(Como usar o RAG Triad para validar os 5 Combos de WhatsApp e E-mail automaticamente)*
+
+
+---
+tags: [gcp, vertex-ai, advanced-rag, re-ranking, query-expansion, personal-help-desk, dia-42]
+
+---
+
+# 🧠 Dia 42: Padrões Avançados de RAG (Query Expansion & Re-ranking)
+
+## 🔄 Otimização Estrutural do Fluxo
+- **Query Expansion:** Traduzir termos vagos do usuário em descrições ricas antes de interrogar o Vector Search.
+- **Re-ranking:** Segunda camada de checagem. Reordena os resultados do índice para injetar apenas o melhor contexto no Gemini.
+
+## 🛠️ Sacada de Engenharia para a Agência
+- Usar a categorização de textos (que aprendi na Natural Language API) junto com a expansão de consultas para mapear gírias ou feedbacks informais de leads locais diretamente para os Combos Técnicos da Personal Help Desk.
+
+## 📥 Próximos Passos
+- [ ] Concluir leitura teórica do módulo 42.
+- [ ] Deixar anotado o "Challenge Lab: Inspect Rich Documents" para quando restabelecer os créditos.
+
