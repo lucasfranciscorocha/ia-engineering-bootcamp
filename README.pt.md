@@ -98,9 +98,9 @@ Linha do tempo baseada em metas ágeis de desenvolvimento, alternando entre enge
 - [x] **Dia 38: Bancos de Dados Vetoriais I** — Configuração e ingestão prática de vetores em bancos líderes (ChromaDB, Pinecone ou Weaviate).
 - [x] **Dia 39: Indexação e Busca por Similaridade** — Configuração interna de busca baseada em Similaridade de Cosseno vs. Distância Euclidiana.
 - [x] **Dia 40: Revisão Prática de Ponta a Ponta** — Construção de um pipeline automatizado que lê um arquivo `.txt`, executa o parsing e persiste os embeddings localmente.
-- [ ] **Dia 41: Estratégias Avançadas de Recuperação** — Implementação prática de técnicas complexas como *Parent Document Retrieval* e *Sentence Window Retrieval*.
-- [ ] **Dia 42: Transformação de Queries** — Técnicas de reescrita automatizada de perguntas dos usuários utilizando fluxos de *Multi-query* e *HyDE*.
-- [ ] **Dia 43: Modelos de Reranking** — Acoplamento de camadas de reordenação estrutural (Cohere Rerank ou BGE) para otimização da relevância de resultados de topo.
+- [x] **Dia 41: Estratégias Avançadas de Recuperação** — Implementação prática de técnicas complexas como *Parent Document Retrieval* e *Sentence Window Retrieval*.
+- [x] **Dia 42: Transformação de Queries** — Técnicas de reescrita automatizada de perguntas dos usuários utilizando fluxos de *Multi-query* e *HyDE*.
+- [x] **Dia 43: Modelos de Reranking** — Acoplamento de camadas de reordenação estrutural (Cohere Rerank ou BGE) para otimização da relevância de resultados de topo.
 - [ ] **Dia 44: Context Stuffing & Citations** — Injeção controlada de contexto no prompt final e engenharia de prompts defensiva para forçar a IA a realizar citações estritas de fontes.
 - [ ] **Dia 45: Avaliação Sistêmica com RAGAS** — Implementação de métricas de qualidade algorítmica utilizando o framework Ragas (Métricas de Fidelidade, Relevância de Contexto e 
 - [ ] **Dia 46: GraphRAG & Conhecimento Estruturado** — Extração de entidades e construção de Grafos de Conhecimento para responder a queries complexas que exigem conexões globais entre múltiplos documentos de documentação técnica.

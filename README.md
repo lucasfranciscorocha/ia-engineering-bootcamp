@@ -111,9 +111,9 @@ An agile, milestone-driven roadmap alternating between rigorous theoretical AI s
 - [x]  **Day 38: Vector Databases I** — Practical setup, scaling, and indexing of vector mathematical coordinates across modern stores (ChromaDB, Pinecone, or Weaviate).
 - [x]  **Day 39: Similarity Indexing Mechanics** — Configuring index algorithms tailored for Cosine Similarity versus Dot Product or Euclidean Distance.
 - [x] **Day 40: End-to-End Baseline Pipeline** — Building an automated pipeline that ingests a raw asset, parses content, generates embeddings, and persists vector indexes locally.
-- [ ]  **Day 41: Advanced Retrieval Frameworks** — Mitigating information loss by implementing Parent Document Retrieval and Sentence Window Retrieval systems.
-- [ ]  **Day 42: Query Transformation Systems** — Automating query refinement through algorithmic multi-query generation and Hypothetical Document Embeddings (HyDE).
-- [ ]  **Day 43: Two-Stage Retrieval with Reranking Models** — Integrating neural re-ordering layers (Cohere Rerank / BGE Reranker) to maximize the relevance of the top-$K$ contexts.
+- [x]  **Day 41: Advanced Retrieval Frameworks** — Mitigating information loss by implementing Parent Document Retrieval and Sentence Window Retrieval systems.
+- [x]  **Day 42: Query Transformation Systems** — Automating query refinement through algorithmic multi-query generation and Hypothetical Document Embeddings (HyDE).
+- [x]  **Day 43: Two-Stage Retrieval with Reranking Models** — Integrating neural re-ordering layers (Cohere Rerank / BGE Reranker) to maximize the relevance of the top-$K$ contexts.
 - [ ]  **Day 44: Context Stuffing & Source Citations** — Formatting retrieved documents into system prompts defensively, forcing the LLM to output rigid, un-hallucinated citations of original source texts.
 - [ ] **Day 45: Algorithmic Evaluation with RAGAS** — Quantifying pipeline metrics via the Ragas framework, measuring Faithfulness, Answer Relevance, and Context Recall.
 - [ ] **Day 46: Knowledge Graphs & GraphRAG** — Extracting structural entities and relationships to build multi-document Knowledge Graphs capable of answering global, macro-level technical ecosystem questions.

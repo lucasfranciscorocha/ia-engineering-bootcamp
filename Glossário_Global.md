@@ -202,3 +202,140 @@ Guarde este repositório! Conforme avançar pelas semanas do bootcamp e os termo
     - **Auto-Embeddings:** Geração automática de vetores pelo modelo, eliminando complexidade de infra de embedding.
         
     - **Task Type Embeddings:** Técnica de otimização de "assimetria" (ex: definir se o dado é `RETRIEVAL_DOCUMENT` ou `YoutubeING`) que pode aumentar a relevância em até 40%.
+
+
+
+# Glossary - 01 Build Your Own Small Language Model
+
+This document is a quick-reference guide of terms, definitions, and concepts featured in the course. 
+
+  
+
+**Artificial intelligence (AI):** A broad field encompassing the development of computer systems capable of performing tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.   
+
+  
+
+**Batching:** A training technique where the dataset is divided into smaller groups (batches), and the model's parameters are updated after processing each batch. This improves computational efficiency and can lead to more stable training.
+
+  
+
+**Corpus (text):** A large and structured set of texts used for training language models and other natural language processing tasks.
+
+  
+
+**Continuation:** The text a language model generates following a given input, known as a prompt. The model produces this output by sequentially predicting the most probable next word or token, building upon the provided context. 
+
+  
+
+**Dataset:** A collection of data, often organized in a structured format, used for training, evaluating, and testing machine learning models.
+
+  
+
+**Deterministic:** A system where the output is uniquely determined by the input. In language models, always selecting the token with the highest probability during decoding would be a deterministic (or "greedy") approach.
+
+  
+
+**Encode and decode functions:** In the context of sequence-to-sequence models (like some transformer architectures), the encode function processes the input sequence into a fixed-length representation (context vector), and the decode function generates the output sequence based on this context vector.
+
+  
+
+**Epoch:** A complete pass through the entire training dataset during the training process. Multiple epochs are often required for the model to learn effectively.
+
+  
+
+**Evaluation:** The process of assessing the performance of a machine learning model using specific metrics.
+
+  
+
+**Generation:** The overarching process of creating new text from scratch or in response to a specific prompt. This is a broader term than continuation. While **continuation** is a specific method of generation (predicting the next part of an existing text), **generation** can also refer to creating a summary, translating text, or writing a creative story based on a single instruction. It's the overall act of producing new language, often with a specific goal in mind.
+
+  
+
+**Hyperparameters:** Parameters of a machine learning model that are set before the training process begins. They control various aspects of the training, such as the learning rate, batch size, and the number of layers in a neural network. These are tuned to optimize the model's performance.
+
+  
+
+**Language model (LM)**: A system that learns to predict the next word in a sequence based on previous words or offers a way to assign probability to a sequence of words.
+
+  
+
+**Large language model (LLM):** A language model with a very large number of parameters (the variables the model learns during training), typically resulting in enhanced capabilities in understanding and generating human-like text.
+
+  
+
+**Loss:** A measure of the error between the model's predictions and the actual target values during training. The goal of training is to minimize this loss.
+
+  
+
+**Machine learning:** A subfield of artificial intelligence that enables computer systems to learn from data without being explicitly programmed.  
+
+  
+
+**N-grams:** A contiguous sequence of n words in a text. Examples include:  
+  
+
+- Unigram: One word (e.g., "the").
+    
+- Bigram: Two words (e.g., "the cat").
+    
+- Trigram: Three words (e.g., "the cat sat").  
+      
+    
+
+**Natural language processing (NLP):** A field of artificial intelligence focused on enabling computers to understand, interpret, and generate human language.  
+
+  
+
+**Optimization:** The process of adjusting the parameters of a machine learning model during training to minimize the loss function and improve its performance.
+
+  
+
+**Padding:** A technique used to ensure that all sequences within a batch have the same length. Shorter sequences are padded with special tokens (e.g., _<pad>_) so they can be processed uniformly.
+
+  
+
+**Parameters:** The internal variables of a machine learning model that are learned from the training data. These weights and biases are adjusted during the optimization process to improve the model's predictions.
+
+  
+
+**Probabilities:** Numerical values between 0 and 1 representing the likelihood of an event occurring. In language models, probabilities are assigned to words or sequences of words.
+
+  
+
+**Probability distribution:** A mathematical function that describes the likelihood of different outcomes or values for a random variable. In machine learning, especially in language models, it often represents the probability of different words or tokens occurring in a given context.
+
+  
+
+**Prompt:** An initial input given to a language model to elicit a desired response or generation of text.
+
+  
+
+**Small language model (SLM):** A language model with a relatively smaller number of parameters compared to large language models.
+
+  
+
+**Sparsity:** A characteristic of language data where most possible combinations of words do not occur. This results in many zero or near-zero values in the statistical representations of language.
+
+  
+
+**Stochastic:** A system that involves randomness, meaning the output is not fixed for a given input. In language models, stochastic decoding involves sampling from the probability distribution of the next possible tokens. This introduces variability in the generated text.
+
+  
+
+**Tokenization:** The process of breaking down text into smaller units called tokens, which can be words, subwords, or characters. This is a fundamental step in preparing text data for natural language processing.
+
+  
+
+**Transformer models:** A type of neural network architecture that has achieved strong results in various natural language processing tasks. These models work auto-regressively by generating one token at a time and using the previous context for the next one.
+
+  
+
+**Truncation:** A technique used to shorten sequences that exceed a predefined maximum length. This is often necessary to manage computational resources and ensure compatibility with model architectures that have fixed input size limitations.
+
+  
+
+**Tuples:** In the context of data, a tuple is an ordered sequence of elements. In machine learning, data points are often represented as tuples of features.
+
+  
+
+**Unknown tokens:** Tokens (e.g., words) that were not encountered in the training data. These are often represented by a special _<unk>_ token during pre-processing to allow the model to handle unseen vocabulary.
